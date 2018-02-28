@@ -1,0 +1,19 @@
+.rHeader
+    display: table
+
+    &-brand
+    &-aside
+    &-nav
+        display: table-cell
+        vertical-align: middle
+
+    &-brand
+        width: 227px
+
+    &-aside
+        width: 120px
+
+    &-nav
+        width: calc(100% - 347px) // 100% - (brand width) - (aside width)
+        padding-right: 107px // make the content look centered on the _page_ | 107px =  (brand width) - (aside width)
+        text-align: center

@@ -1,1 +1,3 @@
-Home page
+<section class="content">
+    Home page
+</section>

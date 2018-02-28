@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Crystal Group</title>
     <link href="web/css/crystal.css"  rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
 </head>
 <body>
 <!-- svg symbols -->
@@ -25,7 +25,29 @@
     <symbol id="symbol-twitter" viewBox="0 0 30 30"><path d="M28.53 9.1a10.92 10.92 0 0 1-3.19.88 5.62 5.62 0 0 0 2.45-3.07 11.32 11.32 0 0 1-3.53 1.34 5.56 5.56 0 0 0-9.61 3.8 5.32 5.32 0 0 0 .15 1.27 15.76 15.76 0 0 1-11.45-5.8 5.56 5.56 0 0 0 1.72 7.41 5.64 5.64 0 0 1-2.52-.69v.07A5.56 5.56 0 0 0 7 19.75a5.49 5.49 0 0 1-1.47.2 6 6 0 0 1-1-.1 5.56 5.56 0 0 0 5.16 3.85 11.15 11.15 0 0 1-6.9 2.38A9.55 9.55 0 0 1 1.47 26 15.65 15.65 0 0 0 10 28.5a15.69 15.69 0 0 0 15.8-15.8v-.72a11 11 0 0 0 2.73-2.88zm0 0"/></symbol>
 </svg>
 
-
+<!-- header -->
+<header class="rHeader content clearfix pa1">
+    <a href="/Accueil" class="rHeader-brand">
+        <svg height="51" width="227"><use xlink:href="#symbol-logo"></use></svg>
+        <span class="sr-only">Accueil</span>
+    </a>
+    <nav class="rHeader-nav">
+        <ul class="menu">
+            <li class="menu-active"><a href="#">Accueil</a></li>
+            <li><a href="#">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+            <li><a href="#">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+            <li><a href="#">Réalisations</a></li>
+            <li><a href="#">Actualités</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <ul class="rHeader-aside menu">
+        <li><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></li>
+        <li class="menu-active menu-lang"><a href="#">fr</a></li>
+        <li class="menu-lang">/</li>
+        <li class="menu-lang"><a href="#">en</a></li>
+    </ul>
+</header>
 <!-- page markup -->
 <?php
 $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil';
