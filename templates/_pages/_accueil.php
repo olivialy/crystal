@@ -67,7 +67,7 @@
 <!-- la matière transformée -->
 <section class="mb4 pt4 pb4" style="background-color:#f1eff0">
     <div class="wrap align-center">
-        <h2>La matirèe transformée</h2>
+        <h2>La matière transformée</h2>
         <p class="mb1">Vous donner l’EAU à la bouche</p>
         <p class="wrap-small mb2">
             Découvrez quelques-unes de nos réalisations. Qu’ils soient pérennes ou éphémères, ces projets sont l’aboutissement d’une organisation et d’une méthodologie bien rôdées : la Matière est maîtrisée et peut se décliner en émotions.
@@ -128,7 +128,31 @@
         </ul>
 
         <!-- view all cta -->
-        <a href="Realisations" class="cta">Voir toutes nos réalisations</a>
+        <p><a href="Realisations" class="cta">Voir toutes nos réalisations</a></p>
 
     </div>
+</section>
+
+<!-- la matière grise -->
+<section class="wrap mb6">
+    <h2 class="align-center">La matière grise</h2>
+    <p class="mb1 align-center">Rester toujours en MOUVEMENT</p>
+    <a href="#" class="videolauncher mb6">
+        <img src="web/img/home-video.jpg" height="366" width="1530" alt="Titre de la video" />
+        <svg height="64" width="64"><use xlink:href="#symbol-play"></use></svg>
+    </a>
+
+    <div class="wrap-medium clearfix mb4">
+        <div class="lg-6 pl1 pr1 float-left">
+            <p>De toutes les matières, la matière grise est, bien sûr, celle qui intervient tout au long de la chaîne de transformation : concepts, études, recherches, plans, production, installation et  formation. Pour tous nos projets, <strong>tacles aquatiques ou multimédias, rideaux et murs d’eau, sculptures sur glace, ice bar, patinoires, créations en givre, feux d’artifices, flammes, machineries, décors…</strong>  Crystal Group met en place une méthode normée et bien définie. Elle s’appuie sur une organisation rigoureuse construite autour de nos 3 pôles complémentaires  :</p>
+            <p><strong>L’ATELIER :</strong> Conception, production, fabrication, assemblage.</p>
+            <p><strong>LE LABORATOIRE :</strong> Recherches & Développement, bureaux d’études.</p>
+            <p><strong>LE BUREAU :</strong> Direction / Ressources Humaines / Commercialisation.</p>
+        </div>
+        <div class="lg-6 pl1 pr1 float-left">
+            <img src="web/img/empty.jpg" height="320" width="600" />
+        </div>
+    </div>
+
+    <p class="align-center"><a href="Organisation" class="cta">Découvrez<br />notre organisation</a></p>
 </section>
