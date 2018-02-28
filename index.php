@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" wrap="width=device-width, initial-scale=1">
     <title>Crystal Group</title>
     <link href="web/css/crystal.css"  rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
@@ -26,14 +26,14 @@
 </svg>
 
 <!-- header -->
-<header class="rHeader content clearfix pa1">
-    <a href="/Accueil" class="rHeader-brand">
+<header class="rHeader wrap clearfix pa1">
+    <a href="Accueil" class="rHeader-brand">
         <svg height="51" width="227"><use xlink:href="#symbol-logo"></use></svg>
         <span class="sr-only">Accueil</span>
     </a>
     <nav class="rHeader-nav">
         <ul class="menu">
-            <li class="menu-active"><a href="#">Accueil</a></li>
+            <li class="menu-active"><a href="Accueil">Accueil</a></li>
             <li><a href="#">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
             <li><a href="#">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
             <li><a href="#">Réalisations</a></li>

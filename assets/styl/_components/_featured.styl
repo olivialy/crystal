@@ -1,26 +1,26 @@
 .featured
     {clearfix}
-    //padding: 0 1em
-    margin: 0 .5em
 
     &-item
         float: left
-        width: calc(20% - 1em)
+        width: calc(20% - 2em)
         height: 720px
-        margin: 0 .5em
-        list-style-type: none
+        margin: 0 1em
+        border-bottom: 7px solid $colour.default
         background-position: top center
         background-repeat: no-repeat
+        list-style-type: none
         transition: width .25s ease
 
         &-on
-            width: calc(25% - 1em)
+            width: calc(25% - 2em)
 
         &-off
-            width: calc(18.75% - 1em)
+            width: calc(18.75% - 2em)
 
         for bg in water ice meca decor sfx
             &-{bg}
+                border-bottom-color: $colour[bg]
                 background-image: "url(../img/featured-%s.jpg)" % bg
 
     a
