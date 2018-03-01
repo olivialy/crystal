@@ -18,10 +18,10 @@
         &-off
             width: calc(18.75% - 2em)
 
-        for bg in water ice meca decor sfx
-            &-{bg}
-                border-bottom-color: $colour[bg]
-                background-image: "url(../img/featured-%s.jpg)" % bg
+        for material in $materials
+            &-{material}
+                border-bottom-color: $colour[material]
+                background-image: "url(../img/featured-%s.jpg)" % s(material)
 
     a
         position: relative

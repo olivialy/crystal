@@ -16,12 +16,18 @@ $font = {
 }
 
 // colours
-$colour = {
-    default: #000000,
+$colourMaterial = {
     water: #006098,
     ice: #009ca8,
     decor: #cfa642,
     sfx: #a42616,
     meca: #919396,
+}
+$materials = keys($colourMaterial)
+
+$colorUI = {
+    default: #000000,
     crystal: #c1b99c
 }
+
+$colour = merge($colourMaterial, $colorUI)

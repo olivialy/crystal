@@ -1,8 +1,8 @@
 <!-- l'art et la matière -->
 <section class="wrap mb4">
-    <p class="align-center mb1">
+    <h1 class="align-center mb1">
         <img src="web/img/baseline.jpg" height="102" width="563" alt="L'art et la matière"/>
-    </p>
+    </h1>
 
     <p class="align-center wrap-small mb2">Crystal Group est une référence mondiale pour la maitrise et la
         transformation des matières dans le secteur du spectacle et de l’événementiel. Artistes-artisans, nous mettons

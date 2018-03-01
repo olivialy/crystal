@@ -1,8 +1,9 @@
+<?php $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil'; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" wrap="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Crystal Group</title>
     <link href="web/css/crystal.min.css"  rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
@@ -33,11 +34,11 @@
     </a>
     <nav class="rHeader-nav">
         <ul class="menu">
-            <li class="menu-active"><a href="Accueil">Accueil</a></li>
-            <li><a href="#">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
-            <li><a href="#">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
-            <li><a href="#">Réalisations</a></li>
-            <li><a href="#">Actualités</a></li>
+            <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil">Accueil</a></li>
+            <li<?php if($page == 'presentation') echo ' class="menu-active"' ?>><a href="Realisations">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+            <li<?php if($page == 'matières') echo ' class="menu-active"' ?>><a href="Matieres">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+            <li<?php if($page == 'realisations') echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
+            <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
@@ -50,10 +51,7 @@
 </header>
 
 <!-- page markup -->
-<?php
-$page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil';
-require_once('templates/_pages/_' . $page . '.php');
-?>
+<?php require_once('templates/_pages/_' . $page . '.php');?>
 
 <!-- footer -->
 <footer class="bg-grey pt1 pb3">

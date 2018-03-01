@@ -1,0 +1,11 @@
+.materiallist
+
+    &-item
+        display: inline
+        margin: 0 1em
+
+    // colours
+    for material in $materials
+        &-{material}
+            svg
+                fill: $colour[material]
