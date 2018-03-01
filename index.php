@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" wrap="width=device-width, initial-scale=1">
     <title>Crystal Group</title>
-    <link href="web/css/crystal.css"  rel="stylesheet">
+    <link href="web/css/crystal.min.css"  rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
 </head>
 <body>

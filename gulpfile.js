@@ -1,17 +1,18 @@
-var gulp        = require('gulp'),
-    concat      = require('gulp-concat'),
-    cssnano      = require('gulp-cssnano'),
-    fs          = require('fs'),
-    glob        = require('glob'),
-    path        = require('path'),
-    plumber     = require('gulp-plumber'),
-    rename      = require('gulp-rename'),
-    rev         = require('gulp-rev'),
-    runSequence = require('run-sequence'),
-    stylus      = require('gulp-stylus'),
-    svgstore      = require('gulp-svgstore'),
-    uglify      = require('gulp-uglify'),
-    uncss       = require('gulp-uncss');
+var gulp         = require('gulp'),
+    autoprefixer = require('autoprefixer'),
+    concat       = require('gulp-concat'),
+    cssnano      = require('cssnano'),
+    fs           = require('fs'),
+    glob         = require('glob'),
+    path         = require('path'),
+    plumber      = require('gulp-plumber'),
+    postcss      = require('gulp-postcss'),
+    rename       = require('gulp-rename'),
+    rev          = require('gulp-rev'),
+    runSequence  = require('run-sequence'),
+    stylus       = require('gulp-stylus'),
+    svgstore     = require('gulp-svgstore'),
+    uglify       = require('gulp-uglify');
 
 var cfg = {
     name: 'crystal',
@@ -31,14 +32,19 @@ gulp.task('styles', function()
     return gulp.src(cfg.assetsDir + 'styl/' + cfg.name +'.styl')
         .pipe(plumber())
         .pipe(stylus({
+            compress: false,
             linenos: false,
             include: ['node_modules'],
             'include css': true
         }))
-        //.pipe(uncss({
-        //    html: ['**.html']
-        //}))
-        //.pipe(cssnano())
+        .pipe(postcss([
+            autoprefixer()
+        ]))
+        .pipe(gulp.dest(cfg.webDir + 'css/'))
+        .pipe(postcss([
+            cssnano()
+        ]))
+        .pipe(rename(cfg.name +'.min.css'))
         .pipe(gulp.dest(cfg.webDir + 'css/'));
 });
 
