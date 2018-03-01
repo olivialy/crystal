@@ -158,7 +158,7 @@
 </section>
 
 <!-- news -->
-<section class="bg-grey mb4 pt2 pb2">
+<section class="bg-grey mb2 pt2 pb2">
     <h2 class="align-center mb2">Actualités</h2>
     <div class="wrap">
         <ul class="news mb3">
@@ -199,3 +199,36 @@
     </div>
     <p class="align-center"><a href="Actualites" class="cta">Voir toutes les actualités</a></p>
 </section>
+
+<!-- newsletter -->
+<form class="wrap mb4" action="/">
+    <h2 class="align-center">Inscription newsletter</h2>
+    <p class="align-center mb1">Briser la GLACE !</p>
+    <div class="wrap-medium clearfix mb3">
+        <div class="lg-6 pl1 pr1 float-left">
+            <p>Suivez, tous les deux mois, <strong>l’actualité de Crystal Group</strong> grâce à notre newsletter, la meilleure façon pour s’inviter aux premières loges des événements concoctés par nos artistes et nos techniciens.<br />
+            Eau, glace, neige, feu, ingérierie, décor, vous découvrez également les coulisses de notre atelier ainsi que les innovations inhérentes à chaque nouveau projet.</p>
+
+            <p><strong>A très bientôt sur notre newsletter !</strong></p>
+        </div>
+        <fieldset class="lg-6 pl1 pr1 float-left">
+            <p>
+                <label class="sr-only" for="nl-name">Nom</label>
+                <input id="nl-name" type="text" placeholder="Nom" />
+            </p>
+            <p>
+                <label class="sr-only" for="nl-firstname">Prénom</label>
+                <input id="nl-firstname" type="text" placeholder="Prénom" />
+            </p>
+            <p>
+                <label class="sr-only" for="nl-company">Entreprise</label>
+                <input id="nl-company" type="text" placeholder="Entreprise" />
+            </p>
+            <p>
+                <label class="sr-only" for="nl-email">Email</label>
+                <input id="nl-email" type="email" placeholder="Email" />
+            </p>
+        </fieldset>
+    </div>
+    <p class="align-center"><input type="submit" class="cta" value="Valider"></p>
+</form>
