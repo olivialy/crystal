@@ -65,7 +65,7 @@
 </section>
 
 <!-- la matière transformée -->
-<section class="mb4 pt4 pb4" style="background-color:#f1eff0">
+<section class="bg-grey mb4 pt4 pb4">
     <div class="wrap align-center">
         <h2>La matière transformée</h2>
         <p class="mb1">Vous donner l’EAU à la bouche</p>
@@ -155,4 +155,47 @@
     </div>
 
     <p class="align-center"><a href="Organisation" class="cta">Découvrez<br />notre organisation</a></p>
+</section>
+
+<!-- news -->
+<section class="bg-grey mb4 pt2 pb2">
+    <h2 class="align-center mb2">Actualités</h2>
+    <div class="wrap">
+        <ul class="news mb3">
+            <li class="news-item">
+                <a href="#">
+                    <p class="news-item-preview">
+                        <img src="web/img/news/news-01.jpg" height="345" width="460" alt="Titre de l'actualité" />
+                        <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
+                    </p>
+                    <p class="news-item-date">Mars 2017</p>
+                    <p class="news-item-title">Titre de l'actualité</p>
+                    <p class="news-item-desc">Texte à venir texte à venir texte à venir texte à venir venir texte à venir texte à venir texte à venir  texte à texte à venir texte à venir...</p>
+                </a>
+            </li>
+            <li class="news-item">
+                <a href="#">
+                    <p class="news-item-preview">
+                        <img src="web/img/news/news-02.jpg" height="345" width="460" alt="Titre de l'actualité" />
+                        <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
+                    </p>
+                    <p class="news-item-date">Mars 2017</p>
+                    <p class="news-item-title">Titre de l'actualité</p>
+                    <p class="news-item-desc">Texte à venir texte à venir texte à venir texte à venir venir texte à venir texte à venir texte à venir  texte à texte à venir texte à venir...</p>
+                </a>
+            </li>
+            <li class="news-item">
+                <a href="#">
+                    <p class="news-item-preview">
+                        <img src="web/img/news/news-03.jpg" height="345" width="460" alt="Titre de l'actualité" />
+                        <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
+                    </p>
+                    <p class="news-item-date">Mars 2017</p>
+                    <p class="news-item-title">Titre de l'actualité</p>
+                    <p class="news-item-desc">Texte à venir texte à venir texte à venir texte à venir venir texte à venir texte à venir texte à venir  texte à texte à venir texte à venir...</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <p class="align-center"><a href="Actualites" class="cta">Voir toutes les actualités</a></p>
 </section>
