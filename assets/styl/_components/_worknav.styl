@@ -1,0 +1,18 @@
+.worknav
+    > li
+        display: inline
+        margin: 0 1em
+        padding-bottom: .5em
+
+    &-active
+        border-bottom: 4px solid $colour.default
+
+    // colours
+    for material in $materials
+        &-{material}
+            svg
+                fill: $colour[material]
+
+
+        &-active&-{material}
+            border-color: $colour[material]
