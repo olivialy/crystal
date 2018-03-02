@@ -59,7 +59,9 @@ gulp.task('scripts', function()
         ])
         .pipe(plumber())
         .pipe(concat(cfg.name +'.js'))
+        .pipe(gulp.dest(cfg.webDir + 'js/'))
         .pipe(uglify())
+        .pipe(rename(cfg.name +'.min.js'))
         .pipe(gulp.dest(cfg.webDir + 'js/'));
 });
 

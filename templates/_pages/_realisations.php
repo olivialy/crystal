@@ -1,4 +1,4 @@
-<section class="mb6">
+<section id="works" class="mb6">
     <div class="cover cover-realisations mb2">
         <div class="cover-content">
             <h1>Réalisation</h1>
@@ -35,7 +35,7 @@
     <?php include_once('templates/_components/_works.php') ?>
 
     <!-- view all cta -->
-    <p><a href="Realisations" class="cta">EN VOIR +</a></p>
+    <p><a id="trigger-work-rows" href="Realisations/Tout" class="cta" data-maxindex="5" data-show="3">EN VOIR +</a></p>
 
     </div>
 </section>
