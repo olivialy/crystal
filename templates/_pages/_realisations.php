@@ -1,4 +1,4 @@
-<section>
+<section class="mb6">
     <div class="cover cover-realisations mb2">
         <div class="cover-content">
             <h1>Réalisation</h1>
@@ -15,7 +15,7 @@
             <li class="worknav-sfx"><a href="#"><svg height="95" width="95"><use xlink:href="#symbol-crystal-sfx"></use></svg></a></li>
         </ul>
 
-        <div class="sectionnav sectionnav-water mt2 mb3">
+        <div class="sectionnav sectionnav-water mt2 mb2">
             <p class="sectionnav-title">Cliquez sur un thème pour découvrir nos réalisations glace et givre</p>
             <ul>
                 <li class="sectionnav-active"><a href="#">Tout</a> | </li>
@@ -30,7 +30,12 @@
                 <li><a href="#">Glisse </a></li>
             </ul>
         </div>
+
+    <!-- works -->
+    <?php include_once('templates/_components/_works.php') ?>
+
+    <!-- view all cta -->
+    <p><a href="Realisations" class="cta">EN VOIR +</a></p>
+
     </div>
-
-
 </section>
