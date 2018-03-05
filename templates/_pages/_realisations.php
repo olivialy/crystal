@@ -1,3 +1,4 @@
+<?php $material = isset($_GET['material']) ? strtolower($_GET['material']) : null; ?>
 <section id="works" class="mb6">
     <div class="cover cover-realisations mb2">
         <div class="cover-content">
@@ -6,21 +7,22 @@
     </div>
 
     <div class="wrap align-center">
-        <h2 class="mb2">Choisissez une matière</h2>
+        <h2 class="mb1">Choisissez une matière</h2>
         <ul class="worknav mb2">
-            <li class="worknav-active worknav-water "><a href="#"><svg height="95" width="95"><use xlink:href="#symbol-crystal-water"></use></svg></a></li>
-            <li class="worknav-ice"><a href="#"><svg height="95" width="95"><use xlink:href="#symbol-crystal-ice"></use></svg></a></li>
-            <li class="worknav-meca"><a href="#"><svg height="95" width="95"><use xlink:href="#symbol-crystal-meca"></use></svg></a></li>
-            <li class="worknav-decor"><a href="#"><svg height="95" width="95"><use xlink:href="#symbol-crystal-decor"></use></svg></a></li>
-            <li class="worknav-sfx"><a href="#"><svg height="95" width="95"><use xlink:href="#symbol-crystal-sfx"></use></svg></a></li>
+            <li class="worknav-water<?php if ($material == 'water') echo " worknav-active" ?>"><a href="Realisations-Water"><svg height="95" width="95"><use xlink:href="#symbol-crystal-water"></use></svg></a></li>
+            <li class="worknav-ice<?php if ($material == 'ice') echo " worknav-active" ?>"><a href="Realisations-Ice"><svg height="95" width="95"><use xlink:href="#symbol-crystal-ice"></use></svg></a></li>
+            <li class="worknav-meca<?php if ($material == 'meca') echo " worknav-active" ?>"><a href="Realisations-Meca"><svg height="95" width="95"><use xlink:href="#symbol-crystal-meca"></use></svg></a></li>
+            <li class="worknav-decor<?php if ($material == 'decor') echo " worknav-active" ?>"><a href="Realisations-Decor"><svg height="95" width="95"><use xlink:href="#symbol-crystal-decor"></use></svg></a></li>
+            <li class="worknav-sfx<?php if ($material == 'sfx') echo " worknav-active" ?>"><a href="Realisations-SFX"><svg height="95" width="95"><use xlink:href="#symbol-crystal-sfx"></use></svg></a></li>
         </ul>
 
-        <div class="sectionnav sectionnav-water mt2 mb2">
-            <p class="sectionnav-title">Cliquez sur un thème pour découvrir nos réalisations glace et givre</p>
+        <?php if ($material) {?>
+        <div class="sectionnav sectionnav-<?php echo $material ?> mt2 mb2">
+            <p class="sectionnav-title pt2">Cliquez sur un thème pour découvrir nos réalisations glace et givre</p>
             <ul>
-                <li class="sectionnav-active"><a href="#">Tout</a> | </li>
+                <li><a href="#">Tout</a> | </li>
                 <li><a href="#">Animations</a> | </li>
-                <li><a href="#">Arts de la table</a> | </li>
+                <li class="sectionnav-active"><a href="#">Arts de la table</a> | </li>
                 <li><a href="#">Décors en givre</a> | </li>
                 <li><a href="#">Décors en glace</a> | </li>
                 <li><a href="#">Décors en neige</a> | </li>
@@ -30,6 +32,7 @@
                 <li><a href="#">Glisse </a></li>
             </ul>
         </div>
+        <?php } ?>
 
     <!-- works -->
     <?php include_once('templates/_components/_works.php') ?>
