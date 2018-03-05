@@ -16,5 +16,11 @@
         text-align: center
         vertical-align: middle
 
-    &-realisations
-        background-image: url(../img/cover-realisations.jpg)
+        p
+            font-size: 1.143em
+            line-height: 1.2
+
+
+    for page in realisations news
+        &-{page}
+            background-image: "url(../img/cover-%s.jpg)" % s(page)
