@@ -21,7 +21,7 @@ $(function() {
 
         if (showIndex <= maxIndex) {
             // show items whose [data-index] value = showIndex
-            var $targetRows = $('[data-index="' + showIndex + '"]', '#work');
+            var $targetRows = $('[data-index="' + showIndex + '"]', '#works');
             $targetRows.slideDown();
 
             // update [data-show] value to trigger next items

@@ -1,4 +1,4 @@
-<ul id="rows" class="rWorks mb1">
+<ul class="rWorks mb1">
     <!-- row 1 -->
     <li class="rWorks-third">
         <a href="#" class="work">
