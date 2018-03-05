@@ -1,6 +1,6 @@
 $(function() {
+    // home: featured item
     var $featuredItem = $('.featured-item', '#featured');
-
     $featuredItem.hover(
         function() {
             $(this).addClass('featured-item-on');
@@ -11,7 +11,8 @@ $(function() {
         }
     );
 
-    $('#trigger-work-rows', '#work').on('click', function(e) {
+    // works
+    $('#trigger-work-rows').on('click', function(e) {
         e.preventDefault();
 
         var $this = $(this);
@@ -33,4 +34,11 @@ $(function() {
         }
     });
 
+    // news
+    $('#trigger-news').on('click', function(e) {
+        e.preventDefault();
+
+        $('.news-item.hidden', '#news').slideDown();
+        $(this).fadeOut();
+    });
 })
