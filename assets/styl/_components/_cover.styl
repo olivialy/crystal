@@ -33,6 +33,6 @@
             background-color: rgba(white, .6)
             color: $colour.default
 
-    for page in realisations news presentation
-        &-{page}
-            background-image: "url(../img/cover-%s.jpg)" % s(page)
+    for covername in realisations news presentation value1 value2
+        &-{covername}
+            background-image: "url(../img/cover-%s.jpg)" % s(covername)
