@@ -36,7 +36,7 @@
         <nav class="rHeader-nav">
             <ul class="menu">
                 <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil">Accueil</a></li>
-                <li<?php if(in_array($page, ['identite', 'organisation', 'valeurs'])) echo ' class="menu-active menu-expanded"' ?>><a href="Realisations">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+                <li<?php if(in_array($page, ['identite', 'organisation', 'valeurs'])) echo ' class="menu-active menu-expanded"' ?>><a href="Identite">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
                 <li<?php if($page == 'matières') echo ' class="menu-active"' ?>><a href="Matieres">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
                 <li<?php if($page == 'realisations') echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
                 <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
@@ -50,11 +50,11 @@
             <li class="menu-lang"><a href="#">en</a></li>
         </ul>
     </div>
-    <ul class="submenu">
-        <li<?php if($page == 'identite') echo ' class="submenu-active"' ?>><a href="Identite">Notre identité</a></li>
-        <li<?php if($page == 'organisation') echo ' class="submenu-active"' ?>><a href="Organisation">Notre organisation</a></li>
-        <li<?php if($page == 'valeurs') echo ' class="submenu-active"' ?>><a href="Valeurs">Nos valeurs</a></li>
-    </ul>
+
+    <?php
+    if(in_array($page, ['identite', 'organisation', 'valeurs'])) {
+        include_once('templates/_components/_submenu.php');
+    } ?>
 </header>
 
 <!-- page markup -->

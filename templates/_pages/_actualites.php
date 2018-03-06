@@ -1,7 +1,7 @@
 <section id="news" class="mb3">
-    <div class="cover cover-news mb2">
-        <div class="cover-content">
-            <div class="wrap">
+    <div class="rCover rCover-news">
+        <div class="sectionhead sectionhead-black">
+            <div class="sectionhead-content wrap">
                 <h1>Les actualités</h1>
                 <p class="wrap-small">Suivez les actualités de Crystal Group : les événements imaginés et conçus par le groupe, les conseils et informations sur notre secteur d’activité, les dernières innovations de notre laboratoire.</p>
             </div>

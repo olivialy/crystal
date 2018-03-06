@@ -1,6 +1,6 @@
-<div class="cover cover-presentation">
-    <div class="cover-content">
-        <div class="wrap">
+<div class="rCover rCover-presentation">
+    <div class="sectionhead sectionhead-white">
+        <div class="sectionhead-content wrap">
             <h1>
                 Notre organisation<br />
                 <span>La chaîne de transformation</span>

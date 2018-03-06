@@ -1,6 +1,6 @@
-<div class="cover cover-presentation">
-    <div class="cover-content">
-        <div class="wrap">
+<div class="rCover rCover-presentation">
+    <div class="sectionhead sectionhead-white">
+        <div class="sectionhead-content wrap">
             <h1>
                 Nos valeurs<br />
                 <span>Au coeur de notre stratégie</span>

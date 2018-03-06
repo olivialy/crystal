@@ -1,8 +1,8 @@
 <section class="mb6">
     <!-- We set background-image through inline style, as it comes from back office -->
-    <div class="cover cover-news mb2" style="background-image:url(web/img/cover-article.jpg)">
-        <div class="cover-content">
-            <div class="wrap">
+    <div class="rCover" style="background-image:url(web/img/cover-article.jpg)">
+        <div class="sectionhead sectionhead-black">
+            <div class="sectionhead-content wrap">
                 <h1>Titre de l'actualité</h1>
                 <p class="wrap-small">Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir </p>
             </div>
