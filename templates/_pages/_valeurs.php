@@ -17,20 +17,18 @@
     </div>
 </section>
 
-<section class="cover cover-value1">
-    <div class="cover-content">
-        <div class="r2cols wrap">
-            <div class="r2cols-2third">
-                <blockquote>
-                    <p>« Toute grande œuvre d’art est le fruit d’une humilité profonde. »</p>
-                    <cite>Valéry Larbaud</cite>
-                </blockquote>
-            </div>
-            <div class="r2cols-1third">
-                <div class=" insert">
-                    <h2>L'humilité</h2>
-                    <p>Nous ne cessons de nous remettre en question afin de continuer à innover et à progresser. Nos 20 années d’expérience s’enrichissent à chaque nouveau projet et nouvelle réussite.</p>
-                </div>
+<section class="rCover rCover-value1">
+    <div class="rCover-content wrap">
+        <div class="lg-6 mr2 ml2">
+            <blockquote>
+                <p>« Toute grande œuvre d’art est le fruit d’une humilité profonde. »</p>
+                <cite>Valéry Larbaud</cite>
+            </blockquote>
+        </div>
+        <div class="lg-3 mr2 ml2">
+            <div class="insert pl2 pr2">
+                <h2>L'humilité</h2>
+                <p>Nous ne cessons de nous remettre en question afin de continuer à innover et à progresser. Nos 20 années d’expérience s’enrichissent à chaque nouveau projet et nouvelle réussite.</p>
             </div>
         </div>
     </div>
@@ -43,21 +41,19 @@
     </div>
 </section>
 
-<section class="cover cover-value2">
-    <div class="cover-content">
-        <div class="r2cols wrap">
-            <div class="r2cols-2third">
-                <blockquote>
-                    <p>« Il faut avoir la passion de son art, on ne fait bien que ce que l'on aime. »</p>
-                    <cite>Anatole France</cite>
-                </blockquote>
+<section class="rCover rCover-value2">
+    <div class="rCover-content wrap">
+        <div class="lg-3 lg-offset-2 mr2 float-left">
+            <div class="insert pl2 pr2">
+                <h2>La passion</h2>
+                <p>Véritable moteur, la passion nous guide pour tous les projets qui nous sont confiés. Seule cette passion permet de rester en éveil et d’être force de proposition.</p>
             </div>
-            <div class="r2cols-1third">
-                <div class=" insert">
-                    <h2>La passion</h2>
-                    <p>Véritable moteur, la passion nous guide pour tous les projets qui nous sont confiés. Seule cette passion permet de rester en éveil et d’être force de proposition.</p>
-                </div>
-            </div>
+        </div>
+        <div class="lg-6 mr2 ml2">
+            <blockquote>
+                <p>« Il faut avoir la passion de son art, on ne fait bien que ce que l'on aime. »</p>
+                <cite>Anatole France</cite>
+            </blockquote>
         </div>
     </div>
 </section>
