@@ -1,0 +1,91 @@
+.chronology
+    {clearfix}
+    margin-right: -1em
+    margin-left: -1em
+
+    li
+        position: relative
+        float: left
+        width: calc(50% - 1em)
+        padding-top: calc(50% - 1em)
+        margin: .5em
+        background-position: top center
+        background-repeat: no-repeat
+        background-size: cover
+        list-style: none
+        cursor: default
+
+        &:before
+            content: ''
+            position: absolute
+            z-index: 1
+            top: 7%
+            right: @top
+            bottom: @top
+            left: @top
+            background-color: rgba(white, .6)
+            transition: background-color .2s
+
+        &:hover
+            &:before
+                background-color: rgba(white, 1)
+
+    for year in 1998 2000 2006 2010 2012 2013
+        &-{year}
+            background-image: "url(../img/identite-%s.jpg)" % year
+
+    &-content
+        position: absolute
+        z-index: 2
+        top: 50%
+        right: 5%
+        left: @right
+        padding: 1em
+        transform: translateY(-50%)
+
+        p
+            padding-bottom: 0
+            line-height: 1.2
+
+    &-year
+        font-size: 1.5em
+        font-weight: bold
+
+    &-title
+        {bordered}
+        margin-bottom: .5em
+        font-size: 1.25em
+        text-transform: uppercase
+
+        &:after
+            border-color: $colour.default
+
+    &-description
+        font-size: 1.125em
+        line-height: 1
+
+
+    @media $screen.md
+        li
+            position: relative
+            float: left
+            width: calc(100%/3 - 2em)
+            padding-top: calc(100%/3 - 2em)
+            margin: 1em
+
+        &-content
+            padding: 1.5em
+
+        &-year
+            font-size: 2.429em
+
+        &-title
+            font-size: 1.786em
+
+    @media $screen.lg
+        &-description
+            font-size: 1.4vw
+
+    @media $screen.xl
+        &-description
+            font-size: 1.286em
