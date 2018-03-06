@@ -43,20 +43,20 @@
     <div class="wrap-medium align-center">
         <h2>La matière travaillée</h2>
         <p class="mb2">Découvrir l’envers du décor</p>
-        <div class="rWorkMaterial">
-            <div class="rWorkMaterial-item">
+        <div class="r4cols">
+            <div class="r4cols-child">
                 <h3>Quelle matière ?</h3>
                 <p>Nous transformons et sublimons <strong>les matières pures et brutes</strong> (l’eau, le feu, la glace, le givre...) pour créer des expériences uniques.</p>
             </div>
-            <div class="rWorkMaterial-item">
+            <div class="r4cols-child">
                 <h3>Par qui ?</h3>
                 <p><strong>Nos artistes audacieux</strong> relèvent chaque jour de nouveaux défis et conçoivent des projets mêlant l’art et la technique.</p>
             </div>
-            <div class="rWorkMaterial-item">
+            <div class="r4cols-child">
                 <h3>Comment ?</h3>
                 <p><strong>Nos nombreux métiers intégrés</strong> nous permettent de proposer toutes les compétences nécessaires au succès de votre événement.</p>
             </div>
-            <div class="rWorkMaterial-item">
+            <div class="r4cols-child">
                 <h3>Quel résultat ?</h3>
                 <p><strong>Votre projet se transforme en une réalisation originale</strong> grâce à notre soif d’innovation et à la passion de tous nos collaborateurs à travers le monde.</p>
             </div>
@@ -91,14 +91,14 @@
         <svg height="64" width="64"><use xlink:href="#symbol-play"></use></svg>
     </a>
 
-    <div class="wrap-medium clearfix mb4">
-        <div class="lg-6 pl1 pr1 float-left">
+    <div class="wrap-medium r2cols mb4">
+        <div class="r2cols-child">
             <p>De toutes les matières, la matière grise est, bien sûr, celle qui intervient tout au long de la chaîne de transformation : concepts, études, recherches, plans, production, installation et  formation. Pour tous nos projets, <strong>tacles aquatiques ou multimédias, rideaux et murs d’eau, sculptures sur glace, ice bar, patinoires, créations en givre, feux d’artifices, flammes, machineries, décors…</strong>  Crystal Group met en place une méthode normée et bien définie. Elle s’appuie sur une organisation rigoureuse construite autour de nos 3 pôles complémentaires  :</p>
             <p><strong>L’ATELIER :</strong> Conception, production, fabrication, assemblage.</p>
             <p><strong>LE LABORATOIRE :</strong> Recherches & Développement, bureaux d’études.</p>
             <p><strong>LE BUREAU :</strong> Direction / Ressources Humaines / Commercialisation.</p>
         </div>
-        <div class="lg-6 pl1 pr1 float-left">
+        <div class="r2cols-child">
             <img src="web/img/empty.jpg" height="320" width="600" />
         </div>
     </div>

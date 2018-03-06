@@ -1,6 +1,6 @@
 <ul class="news">
     <li class="news-item">
-        <a href="#">
+        <a href="Article">
             <p class="news-item-preview">
                 <img src="web/img/news/news-01.jpg" height="345" width="460" alt="Titre de l'actualité" />
                 <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
@@ -11,7 +11,7 @@
         </a>
     </li>
     <li class="news-item">
-        <a href="#">
+        <a href="Article">
             <p class="news-item-preview">
                 <img src="web/img/news/news-02.jpg" height="345" width="460" alt="Titre de l'actualité" />
                 <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
@@ -22,7 +22,7 @@
         </a>
     </li>
     <li class="news-item">
-        <a href="#">
+        <a href="Article">
             <p class="news-item-preview">
                 <img src="web/img/news/news-03.jpg" height="345" width="460" alt="Titre de l'actualité" />
                 <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
@@ -35,7 +35,7 @@
 
     <?php if ($page == 'actualites') { ?>
     <li class="news-item">
-        <a href="#">
+        <a href="Article">
             <p class="news-item-preview">
                 <img src="web/img/news/news-01.jpg" height="345" width="460" alt="Titre de l'actualité" />
                 <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
@@ -46,7 +46,7 @@
         </a>
     </li>
     <li class="news-item">
-        <a href="#">
+        <a href="Article">
             <p class="news-item-preview">
                 <img src="web/img/news/news-02.jpg" height="345" width="460" alt="Titre de l'actualité" />
                 <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
@@ -57,7 +57,7 @@
         </a>
     </li>
     <li class="news-item">
-        <a href="#">
+        <a href="Article">
             <p class="news-item-preview">
                 <img src="web/img/news/news-03.jpg" height="345" width="460" alt="Titre de l'actualité" />
                 <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
@@ -68,7 +68,7 @@
         </a>
     </li>
     <li class="news-item hidden">
-        <a href="#">
+        <a href="Article">
             <p class="news-item-preview">
                 <img src="web/img/news/news-03.jpg" height="345" width="460" alt="Titre de l'actualité" />
                 <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>
@@ -79,7 +79,7 @@
         </a>
     </li>
         <li class="news-item hidden">
-            <a href="#">
+            <a href="Article">
                 <p class="news-item-preview">
                     <img src="web/img/news/news-02.jpg" height="345" width="460" alt="Titre de l'actualité" />
                     <svg height="148" width="148"><use xlink:href="#symbol-crystal"></use></svg>

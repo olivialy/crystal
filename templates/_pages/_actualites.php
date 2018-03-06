@@ -3,7 +3,7 @@
         <div class="cover-content">
             <div class="wrap">
                 <h1>Les actualités</h1>
-                <p class="lg-6 lg-offset-3">Suivez les actualités de Crystal Group : les événements imaginés et conçus par le groupe, les conseils et informations sur notre secteur d’activité, les dernières innovations de notre laboratoire.</p>
+                <p class="wrap-small">Suivez les actualités de Crystal Group : les événements imaginés et conçus par le groupe, les conseils et informations sur notre secteur d’activité, les dernières innovations de notre laboratoire.</p>
             </div>
         </div>
     </div>
