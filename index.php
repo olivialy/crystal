@@ -27,26 +27,33 @@
 </svg>
 
 <!-- header -->
-<header class="rHeader wrap clearfix pa1">
-    <a href="Accueil" class="rHeader-brand">
-        <svg height="51" width="227"><use xlink:href="#symbol-logo"></use></svg>
-        <span class="sr-only">Accueil</span>
-    </a>
-    <nav class="rHeader-nav">
-        <ul class="menu">
-            <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil">Accueil</a></li>
-            <li<?php if($page == 'presentation') echo ' class="menu-active"' ?>><a href="Realisations">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
-            <li<?php if($page == 'matières') echo ' class="menu-active"' ?>><a href="Matieres">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
-            <li<?php if($page == 'realisations') echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
-            <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
-            <li><a href="#">Contact</a></li>
+<header>
+    <div class="rHeader wrap">
+        <a href="Accueil" class="rHeader-brand">
+            <svg height="51" width="227"><use xlink:href="#symbol-logo"></use></svg>
+            <span class="sr-only">Accueil</span>
+        </a>
+        <nav class="rHeader-nav">
+            <ul class="menu">
+                <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil">Accueil</a></li>
+                <li<?php if(in_array($page, ['identite', 'organisation', 'valeurs'])) echo ' class="menu-active menu-expanded"' ?>><a href="Realisations">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+                <li<?php if($page == 'matières') echo ' class="menu-active"' ?>><a href="Matieres">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+                <li<?php if($page == 'realisations') echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
+                <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <ul class="rHeader-aside menu">
+            <li><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></li>
+            <li class="menu-active menu-lang"><a href="#">fr</a></li>
+            <li class="menu-lang">/</li>
+            <li class="menu-lang"><a href="#">en</a></li>
         </ul>
-    </nav>
-    <ul class="rHeader-aside menu">
-        <li><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></li>
-        <li class="menu-active menu-lang"><a href="#">fr</a></li>
-        <li class="menu-lang">/</li>
-        <li class="menu-lang"><a href="#">en</a></li>
+    </div>
+    <ul class="submenu">
+        <li<?php if($page == 'identite') echo ' class="submenu-active"' ?>><a href="Identite">Notre identité</a></li>
+        <li<?php if($page == 'organisation') echo ' class="submenu-active"' ?>><a href="Organisation">Notre organisation</a></li>
+        <li<?php if($page == 'valeurs') echo ' class="submenu-active"' ?>><a href="Valeurs">Nos valeurs</a></li>
     </ul>
 </header>
 
