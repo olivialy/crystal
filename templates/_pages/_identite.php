@@ -94,3 +94,27 @@
     </ul>
 </section>
 
+<section class="wrap align-center pt3">
+    <h3>Un groupe international</h3>
+    <p class="mb2">Depuis plus de 10 ans, Crystal Group s'implante à l'étranger.</p>
+    <div class="map wrap">
+        <img class="map-img" height="476" width="808" src="web/img/identite-carte.jpg" alt="Carte : Crystal Groupe dans le monde" />
+        <ul class="map-list">
+            <li>France</li>
+            <li>Maroc</li>
+            <li>Belgique</li>
+            <li>Hong Kong</li>
+            <li>Bahrein</li>
+            <li>Sultanat d’Oman</li>
+            <li>Arabie Saoudite</li>
+            <li>Singapour</li>
+            <li>Dubaï</li>
+        </ul>
+    </div>
+</section>
+
+<section class="wrap align-center pt3 mb4">
+    <h3>En savoir plus</h3>
+    <p class="wrap-small mb2">Texte à venir Texte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venir</p>
+    <a class="cta" href="#">Téléchargez notre livre blanc <svg height="21" width="21"><use xlink:href="#symbol-download"></use></svg></a>
+</section>
