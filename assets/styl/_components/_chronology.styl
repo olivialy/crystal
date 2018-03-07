@@ -52,13 +52,10 @@
         line-height: 1.2
 
     &-title
-        {bordered}
+        _bordered({borderColour: $colour.default})
         margin-bottom: .5em
         text-transform: uppercase
         line-height: 1
-
-        &:after
-            border-color: $colour.default
 
     &-description
         font-size: 1em
