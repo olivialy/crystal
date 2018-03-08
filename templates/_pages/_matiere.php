@@ -76,7 +76,7 @@
     </div>
 </section>
 
-<section class="wrap align-center pt4 pb4">
+<section class="wrap align-center pt4 pb2">
     <h2 class="brandline">Découvrez les autres matières</h2>
     <ul class="worknav mb2">
         <?php

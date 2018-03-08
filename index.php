@@ -1,4 +1,5 @@
 <?php $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil'; ?>
+<?php $material = isset($_GET['material']) ? strtolower($_GET['material']) : null; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -58,9 +59,13 @@
 
     <!-- header: sub nav -->
     <?php
-    if(in_array($page, ['identite', 'organisation', 'valeurs'])) {
-        include_once('templates/_components/_submenu.php');
-    } ?>
+    if (in_array($page, ['identite', 'organisation', 'valeurs'])) {
+        include_once('templates/_components/_submenu-presentation.php');
+    }
+    if ($page == 'matiere') {
+        include_once('templates/_components/_submenu-material.php');
+    }
+    ?>
 </header>
 
 <!-- page markup -->

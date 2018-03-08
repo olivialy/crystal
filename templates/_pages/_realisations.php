@@ -1,4 +1,3 @@
-<?php $material = isset($_GET['material']) ? strtolower($_GET['material']) : null; ?>
 <section id="works" class="mb6">
     <div class="rCover rCover-realisations">
         <div class="sectionhead sectionhead-black">
