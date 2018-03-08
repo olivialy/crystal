@@ -29,7 +29,7 @@
                 <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <p class="rHeader-nav-aside asidemenu">
+            <p class="rHeader-nav-aside asidemenu pb1">
                 <a href="#"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
                 <a href="#" class="asidemenu-active">fr</a> / <a href="#">en</a>
             </p>

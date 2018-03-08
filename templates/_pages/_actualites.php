@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    <div class="wrap">
+    <div class="wrap pl1 pr1">
         <!-- section nav -->
         <div class="sectionnav align-center mt3 mb3">
             <ul>
@@ -23,6 +23,6 @@
         <?php include_once('templates/_components/_news.php'); ?>
 
         <!-- view all button -->
-        <p id="trigger-news" class="align-center"><a href="Actualites/Tout" class="cta mb3">Voir toutes les actualités</a></p>
+        <p id="trigger-news" class="align-center mt3 mb3"><a href="Actualites/Tout" class="cta">Voir toutes les actualités</a></p>
     </div>
 </section>

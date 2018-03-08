@@ -91,7 +91,7 @@
         <svg height="64" width="64"><use xlink:href="#symbol-play"></use></svg>
     </a>
 
-    <div class="wrap-medium r2cols mb4">
+    <div class="wrap-medium r2cols mb3">
         <div class="r2cols-child">
             <p>De toutes les matières, la matière grise est, bien sûr, celle qui intervient tout au long de la chaîne de transformation : concepts, études, recherches, plans, production, installation et  formation. Pour tous nos projets, <strong>tacles aquatiques ou multimédias, rideaux et murs d’eau, sculptures sur glace, ice bar, patinoires, créations en givre, feux d’artifices, flammes, machineries, décors…</strong>  Crystal Group met en place une méthode normée et bien définie. Elle s’appuie sur une organisation rigoureuse construite autour de nos 3 pôles complémentaires  :</p>
             <p><strong>L’ATELIER :</strong> Conception, production, fabrication, assemblage.</p>
@@ -107,9 +107,9 @@
 </section>
 
 <!-- news -->
-<section class="bg-grey mb2 pt2 pb2">
+<section class="bg-grey mb2 pt2 pb2 pl1 pr1">
     <h2 class="align-center mb2">Actualités</h2>
-    <div class="wrap">
+    <div class="wrap mb2">
         <?php include_once('templates/_components/_news.php'); ?>
     </div>
     <p class="align-center"><a href="Actualites" class="cta">Voir toutes les actualités</a></p>

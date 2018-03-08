@@ -7,7 +7,7 @@
             </p>
             <p class="news-item-date">Mars 2017</p>
             <p class="news-item-title">Titre de l'actualité</p>
-            <p class="news-item-desc">Texte à venir texte à venir texte à venir texte à venir venir texte à venir texte à venir texte à venir  texte à texte à venir texte à venir...</p>
+            <p class="news-item-desc">Texte à venir texte à venir texte à venir...</p>
         </a>
     </li>
     <li class="news-item">
@@ -18,7 +18,7 @@
             </p>
             <p class="news-item-date">Mars 2017</p>
             <p class="news-item-title">Titre de l'actualité</p>
-            <p class="news-item-desc">Texte à venir texte à venir texte à venir texte à venir venir texte à venir texte à venir texte à venir  texte à texte à venir texte à venir...</p>
+            <p class="news-item-desc">Texte à venir texte à venir à venir texte à venir texte à venir  texte à texte à venir texte à venir...</p>
         </a>
     </li>
     <li class="news-item">
@@ -29,7 +29,7 @@
             </p>
             <p class="news-item-date">Mars 2017</p>
             <p class="news-item-title">Titre de l'actualité</p>
-            <p class="news-item-desc">Texte à venir texte à venir texte à venir texte à venir venir texte à venir texte à venir texte à venir  texte à texte à venir texte à venir...</p>
+            <p class="news-item-desc">Texte  texte à venir texte à venir  texte à texte à venir texte à venir...</p>
         </a>
     </li>
 

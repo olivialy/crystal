@@ -1,19 +1,21 @@
 .news
-    {clearfix}
+    //{clearfix}
+    display: flex
+    flex-wrap: wrap
+    margin: 0 -1em
 
     a
         color: $colour.default
         text-decoration: none
 
     &-item
-        float: left
-        width: calc(100%/3 - 2em)
+        width: calc(50% - 2em)
         margin: 0 1em 3em
         list-style: none
 
         &-preview
             position: relative
-            margin-bottom: 2em
+            margin-bottom: 1em
             padding-bottom: 0
 
             > img
@@ -51,10 +53,19 @@
 
         &-title
             padding-bottom: 1em
-            font-size: 1.28em
+            font-size: 1em
             font-weight: bold
+            line-height: 1.2
 
         &-desc
             line-height: 1.2
 
+    @media $screen.md
+        &-item
+            width: calc(100%/3 - 2em)
 
+            &-preview
+                margin-bottom: 2em
+
+            &-title
+                font-size: 1.28em
