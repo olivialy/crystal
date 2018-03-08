@@ -55,7 +55,7 @@
 
     <!-- next blocks available in "Réalisations" section only -->
     <!-- row 3 -->
-    <li class="rWorks-third" class="rWorks" data-index="3">
+    <li class="rWorks-third" data-index="3">
         <a href="#" class="work">
             <img src="web/img/work/work-01.jpg" height="330" width="490" alt="Ice - Décor : Décor marché de Noël" />
             <p class="work-detail">
@@ -109,7 +109,7 @@
     </li>
 
     <!-- row 5 -->
-    <li class="rWorks-third" class="rWorks" data-index="5">
+    <li class="rWorks-third" data-index="5">
         <a href="#" class="work">
             <img src="web/img/work/work-01.jpg" height="330" width="490" alt="Ice - Décor : Décor marché de Noël" />
             <p class="work-detail">

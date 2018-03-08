@@ -1,21 +1,41 @@
 .rHeader
-    display: table
+    display: flex
     padding: 1em 1em 0
 
     &-brand
-    &-aside
-    &-nav
-        display: table-cell
-        vertical-align: bottom
+        width: 15%
+        max-width: 227px
 
-    &-brand
-        width: 227px
-
-    &-aside
-        width: 120px
-        text-align: right
+        svg
+            width: 100%
+            height: auto
 
     &-nav
-        width: calc(100% - 347px) // 100% - (brand width) - (aside width)
-        padding-right: 107px // make the content look centered on the _page_ | 107px =  (brand width) - (aside width)
-        text-align: center
+        display: flex
+        justify-content: space-between
+        width: 85%
+
+        &-aside
+            text-align: center
+
+        &-main
+            margin: 0 auto
+            text-align: center
+
+    @media $screen.sm
+        &-nav
+            position: fixed
+            z-index: 20
+            top: 0
+            left: 0
+            flex-direction: column
+            justify-content: center
+            width: 100%
+            height: 100%
+            background-color: white
+
+    @media $screen.lg
+        &-aside
+            width: 18%
+            max-width: 227px
+            text-align: right

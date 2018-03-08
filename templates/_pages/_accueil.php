@@ -99,7 +99,7 @@
             <p><strong>LE BUREAU :</strong> Direction / Ressources Humaines / Commercialisation.</p>
         </div>
         <div class="r2cols-child">
-            <img src="web/img/empty.jpg" height="320" width="600" />
+            <img src="web/img/empty.jpg" height="320" width="600" alt="Lorem ipsum" />
         </div>
     </div>
 

@@ -29,13 +29,14 @@
 
 <!-- header -->
 <header>
+    <!-- header: main menu -->
     <div class="rHeader wrap">
         <a href="Accueil" class="rHeader-brand">
             <svg height="51" width="227"><use xlink:href="#symbol-logo"></use></svg>
             <span class="sr-only">Accueil</span>
         </a>
         <nav class="rHeader-nav">
-            <ul class="menu">
+            <ul class="rHeader-nav-main menu">
                 <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil">Accueil</a></li>
                 <li<?php if(in_array($page, ['identite', 'organisation', 'valeurs'])) echo ' class="menu-active menu-expanded"' ?>><a href="Identite">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
                 <li<?php if($page == 'matières') echo ' class="menu-active"' ?>><a href="Matieres">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
@@ -43,15 +44,14 @@
                 <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <p class="rHeader-nav-aside asidemenu">
+                <a href="#"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
+                <a href="#" class="asidemenu-active">fr</a> / <a href="#">en</a>
+            </p>
         </nav>
-        <ul class="rHeader-aside menu">
-            <li><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></li>
-            <li class="menu-active menu-lang"><a href="#">fr</a></li>
-            <li class="menu-lang">/</li>
-            <li class="menu-lang"><a href="#">en</a></li>
-        </ul>
     </div>
 
+    <!-- header: sub nav -->
     <?php
     if(in_array($page, ['identite', 'organisation', 'valeurs'])) {
         include_once('templates/_components/_submenu.php');
@@ -62,61 +62,7 @@
 <?php require_once('templates/_pages/_' . $page . '.php');?>
 
 <!-- footer -->
-<footer class="bg-grey pt1 pb3">
-    <section class="wrap">
-        <div class="rFooter wrap-medium clearfix pl1 pr1 mb1">
-            <!-- address -->
-            <address class="rFooter-info pt1">
-                <svg height="47" width="206"><use xlink:href="#symbol-logo"></use></svg>
-                <p>1 rue Jean Perrin - ZI du Pont Yblon<br />
-                    93150 Le Blanc Mesnil<br />
-                    Tél : +33 (0) 1 48 65 12 20<br />
-                    Fax : +33 (0) 1 48 65 14 92</p>
-            </address>
-
-            <!-- social -->
-            <div class="rFooter-info align-center pt2">
-                <ul class="inline">
-                    <li><a href="#"><svg height="24" width="24"><use xlink:href="#symbol-facebook"></use></svg></a></li>
-                    <li><a href="#"><svg height="24" width="24"><use xlink:href="#symbol-twitter"></use></svg></a></li>
-                    <li><a href="#"><svg height="24" width="24"><use xlink:href="#symbol-linkedin"></use></svg></a></li>
-                </ul>
-            </div>
-
-            <!-- instagram -->
-            <div class="rFooter-feed align-center">
-                <p class="rFooter-title">Instagram</p>
-                <ul class="instafeed">
-                    <li class="instafeed-item"><a href="#"><img src="web/img/insta-01.jpg" alt="Alt text"></a></li>
-                    <li class="instafeed-item"><a href="#"><img src="web/img/insta-02.jpg" alt="Alt text"></a></li>
-                    <li class="instafeed-item"><a href="#"><img src="web/img/insta-03.jpg" alt="Alt text"></a></li>
-                    <li class="instafeed-item"><a href="#"><img src="web/img/insta-04.jpg" alt="Alt text"></a></li>
-                </ul>
-            </div>
-
-            <!-- twitter -->
-            <div class="rFooter-feed">
-                <p class="rFooter-title">Twitter</p>
-                <ul class="twitterfeed">
-                    <li class="twitterfeed-item">
-                        <svg width="18" height="18"><use xlink:href="#symbol-twitter"></use></svg>
-                        <p>Don't forget to check out Capri - The Hot New #WordPress Theme You've Been Waiting For ;) http://t.co/RrBK5W8VsN </p>
-                    </li>
-                    <li class="twitterfeed-item">
-                        <svg width="18" height="18"><use xlink:href="#symbol-twitter"></use></svg>
-                        <p>Don't forget to check out Capri - The Hot New #WordPress Theme You've Been Waiting For ;) http://t.co/RrBK5W8VsN </p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <ul class="footerlinks">
-            <li class="footerlinks-item">Copyright Crystal Group</li>
-            <li class="footerlinks-item"><a href="#">Espace privé</a></li>
-            <li class="footerlinks-item"><a href="#">Mentions Légales</a></li>
-        </ul>
-    </section>
-</footer>
+<?php //require_once('templates/_components/_footer.php');?>
 
 <!-- js -->
 <script src="web/js/html5shiv.min.js"></script>

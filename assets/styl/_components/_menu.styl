@@ -1,9 +1,8 @@
 .menu
     li
-        display: inline-block
-        padding-right: 1em
         padding-bottom: 1em
-        font-size: 1.14em
+        font-size: 2em
+        list-style: none
 
     a
         color: $colour.default
@@ -41,3 +40,17 @@
             border: 10px solid transparent
             border-bottom-color: $colour.default
             transform: translateX(-100%)
+
+    @media $screen.sm
+        svg
+            transform: scale(2)
+
+    @media $screen.md
+        li
+            padding-right: 1em
+            display: inline-block
+
+
+    @media $screen.lg
+        li
+            font-size: 1.14em
