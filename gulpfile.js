@@ -12,6 +12,7 @@ var gulp         = require('gulp'),
     runSequence  = require('run-sequence'),
     stylus       = require('gulp-stylus'),
     svgstore     = require('gulp-svgstore'),
+    svgmin       = require('gulp-svgmin'),
     uglify       = require('gulp-uglify');
 
 var cfg = {
@@ -74,6 +75,7 @@ gulp.task('svg', function () {
             name.push(filePath.basename);
             filePath.basename = 'symbol-' + name.join('-');
         }))
+        .pipe(svgmin())
         .pipe(svgstore({inlineSvg: true}))
         .pipe(gulp.dest(cfg.webDir + '/svg'));
 });

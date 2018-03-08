@@ -4,10 +4,17 @@
         color: $colour.default
         text-decoration: none
 
+        &:hover
+            text-decoration: underline
+
+    a&-active
+        text-decoration: underline
+
     svg
         vertical-align: middle
 
     @media $screen.sm
+        width: 100%
         font-size: 2em
 
         a
