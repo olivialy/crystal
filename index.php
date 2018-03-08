@@ -13,7 +13,7 @@
 <div class="hidden"><?php include_once('web/svg/svg.svg') ?></div>
 
 <!-- header -->
-<header>
+<header id="header" class="header">
     <!-- header: main menu -->
     <div class="rHeader wrap">
         <a href="Accueil" class="rHeader-brand">

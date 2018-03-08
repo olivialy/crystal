@@ -1,4 +1,20 @@
 $(function() {
+    // headroom.js
+    // handle .header show/hide animation
+    $("#header").headroom({
+        "offset": 50,
+        "tolerance": 5,
+        "classes": {
+            initial:    'header',              // when element is initialised
+            pinned:     'header-pinned',       // when scrolling up
+            unpinned:   'header-unpinned',     // when scrolling down
+            top:        'header-top',          // when above offset
+            notTop:     'header-not-top',      // when below offset
+            bottom:     'header-bottom',       // when at bottom of scoll area
+            notBottom:  'header-not-bottom'    // when not at bottom of scroll area
+        }
+    });
+
     // open/close menu
     $('#open-menu').on('click', function (){
         $('#menu').addClass('rHeader-nav-open');

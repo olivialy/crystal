@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    <div class="wrap align-center">
+    <div class="wrap align-center pt2">
         <h2 class="mb1">Choisissez une matière</h2>
         <ul class="worknav mb2">
             <li class="worknav-water<?php if ($material == 'water') echo " worknav-active" ?>"><a href="Realisations-Water"><svg height="95" width="95"><use xlink:href="#symbol-crystal-water"></use></svg></a></li>

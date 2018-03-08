@@ -1,4 +1,5 @@
 .submenu
+    display: none
     padding: .5em 0
     background-color: $colour.default
     text-align: center
@@ -19,3 +20,6 @@
             color: $colour.crystal
             font-weight: bold
             text-decoration: underline
+
+    @media $screen.md
+        display: block
