@@ -1,14 +1,12 @@
 .chronology
     {clearfix}
-    margin-right: -1em
-    margin-left: -1em
 
     li
         position: relative
         float: left
-        width: calc(50% - 1em)
-        padding-top: calc(50% - 1em)
-        margin: .5em
+        width: 49%
+        padding-top: 49%
+        margin: 1%
         background-position: top center
         background-repeat: no-repeat
         background-size: cover
@@ -19,7 +17,7 @@
             content: ''
             position: absolute
             z-index: 1
-            top: 7%
+            top: 6%
             right: @top
             bottom: @top
             left: @top
@@ -40,7 +38,7 @@
         top: 50%
         right: 5%
         left: @right
-        padding: 1em
+        padding: .5em
         transform: translateY(-50%)
 
         p
@@ -61,6 +59,13 @@
         font-size: 1em
         line-height: 1
 
+    @media $screen.sm
+        li
+            &:nth-child(odd)
+                margin-left: 0
+
+            &:nth-child(even)
+                margin-right: 0
 
     @media $screen.md
         li

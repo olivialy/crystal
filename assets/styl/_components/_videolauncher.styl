@@ -1,6 +1,7 @@
 .videolauncher
     display: block
     position: relative
+    margin-bottom: 2em
 
     svg
         position: absolute
@@ -8,3 +9,6 @@
         left: 50%
         fill: white
         transform: translate(-50%, -50%)
+
+    @media $screen.md
+        margin-bottom: 6em

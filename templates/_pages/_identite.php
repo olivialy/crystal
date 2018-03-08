@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<section class="wrap tPresentation align-center pt2">
+<section class="wrap tPresentation align-center pt2 pl1 pr1">
     <div class="wrap-medium r2cols pt2 pb3">
         <div class="r2cols-child">
             <img src="web/img/empty.jpg" height="320" width="600" alt="lorem ipsum" />
@@ -24,7 +24,7 @@
     </div>
 </section>
 
-<section class="bg-grey align-center pt3">
+<section class="bg-grey align-center pt3 pl1 pr1">
     <blockquote class="wrap-small mb3">
         <p>« Si les gens savaient combien je travaille dur pour acquérir ma maîtrise, ça ne leur semblerait pas, après tout, tellement merveilleux. »</p>
         <cite>Michel-Ange</cite>
@@ -45,7 +45,7 @@
     </div>
 </section>
 
-<section class="tIdentity wrap align-center pt3">
+<section class="tIdentity wrap align-center pt3 pl1 pr1">
     <h2>Chronologie</h2>
     <p class="mb1">Au fil des ans les matières étoffent le groupe</p>
     <ul class="chronology wrap-medium">
@@ -94,7 +94,7 @@
     </ul>
 </section>
 
-<section class="tIdentity wrap align-center pt3">
+<section class="tIdentity wrap align-center pt3 pl1 pr1">
     <h3>Un groupe international</h3>
     <p class="mb2">Depuis plus de 10 ans, Crystal Group s'implante à l'étranger.</p>
     <div class="map wrap">
@@ -113,7 +113,7 @@
     </div>
 </section>
 
-<section class="tIdentity wrap align-center pt3 mb4">
+<section class="tIdentity wrap align-center pt3 pl1 pr1 mb4">
     <h3>En savoir plus</h3>
     <p class="wrap-small mb2">Texte à venir Texte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venirTexte à venir</p>
     <a class="cta" href="#">Téléchargez notre livre blanc <svg height="21" width="21"><use xlink:href="#symbol-download"></use></svg></a>

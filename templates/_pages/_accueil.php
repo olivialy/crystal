@@ -83,10 +83,10 @@
 </section>
 
 <!-- la matière grise -->
-<section class="wrap mb6">
+<section class="wrap mb6 pl1 pr1">
     <h2 class="align-center">La matière grise</h2>
     <p class="mb1 align-center">Rester toujours en MOUVEMENT</p>
-    <a href="#" class="videolauncher mb6">
+    <a href="#" class="videolauncher">
         <img src="web/img/home-video.jpg" height="366" width="1530" alt="Titre de la video" />
         <svg height="64" width="64"><use xlink:href="#symbol-play"></use></svg>
     </a>
@@ -116,17 +116,17 @@
 </section>
 
 <!-- newsletter -->
-<form class="wrap mb4" action="/">
+<form class="wrap mb4 pl1 pr1" action="/">
     <h2 class="align-center">Inscription newsletter</h2>
     <p class="align-center mb1">Briser la GLACE !</p>
-    <div class="wrap-medium clearfix mb3">
-        <div class="lg-6 pl1 pr1 float-left">
+    <div class="wrap-medium r2cols mb3">
+        <div class="r2cols-child">
             <p>Suivez, tous les deux mois, <strong>l’actualité de Crystal Group</strong> grâce à notre newsletter, la meilleure façon pour s’inviter aux premières loges des événements concoctés par nos artistes et nos techniciens.<br />
             Eau, glace, neige, feu, ingérierie, décor, vous découvrez également les coulisses de notre atelier ainsi que les innovations inhérentes à chaque nouveau projet.</p>
 
             <p><strong>A très bientôt sur notre newsletter !</strong></p>
         </div>
-        <fieldset class="lg-6 pl1 pr1 float-left">
+        <fieldset class="r2cols-child">
             <p>
                 <label class="sr-only" for="nl-name">Nom</label>
                 <input id="nl-name" type="text" placeholder="Nom" />
