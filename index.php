@@ -23,7 +23,15 @@
         <nav id="menu" class="rHeader-nav">
             <ul class="rHeader-nav-main menu">
                 <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil">Accueil</a></li>
-                <li<?php if(in_array($page, ['identite', 'organisation', 'valeurs'])) echo ' class="menu-active menu-expanded"' ?>><a href="Identite">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+                <li<?php if(in_array($page, ['identite', 'organisation', 'valeurs'])) echo ' class="menu-active menu-expanded"' ?>>
+                    <a href="Identite">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg>
+                    <!-- sub nav // displayed only on small screens -->
+                    <ul>
+                        <li<?php if($page == 'identite') echo ' class="menu-active"' ?>><a href="Identite">Notre identité</a></li>
+                        <li<?php if($page == 'organisation') echo ' class="menu-active"' ?>><a href="Organisation">Notre organisation</a></li>
+                        <li<?php if($page == 'valeurs') echo ' class="menu-active"' ?>><a href="Valeurs">Nos valeurs</a></li>
+                    </ul>
+                </li>
                 <li<?php if($page == 'matières') echo ' class="menu-active"' ?>><a href="Matieres">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
                 <li<?php if($page == 'realisations') echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
                 <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>

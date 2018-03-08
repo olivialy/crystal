@@ -2,14 +2,14 @@
     <!-- We set background-image through inline style, as it comes from back office -->
     <div class="rCover" style="background-image:url(web/img/cover-article.jpg)">
         <div class="sectionhead sectionhead-black">
-            <div class="sectionhead-content wrap">
+            <div class="sectionhead-content wrap pl1 pr1">
                 <h1>Titre de l'actualité</h1>
                 <p class="wrap-small">Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir Petit résumé de l’article à venir </p>
             </div>
         </div>
     </div>
 
-    <div class="wrap">
+    <div class="wrap pl1 pr1">
         <!-- content -->
         <div class="wrap-small tArticle mb2 pt1">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est purus, sollicitudin a tortor vel, scelerisque viverra diam. <strong>Vivamus convallis enim nibh, eu finibus nibh lobortis non. Cras tristique viverra quam a fringilla. Quisque mi ex, interdum quis nulla et, malesuada pulvinar augue. Aliquam rhoncus nec augue ac efficitur</strong>. Sed tortor enim, feugiat quis tellus ac, iaculis fringilla massa. Nam facilisis quam quam, at molestie nulla hendrerit at. Etiam volutpat ornare elit, vel ullamcorper erat dapibus non. Mauris eu odio et odio rhoncus tristique. Aliquam a varius velit.</p>

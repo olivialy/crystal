@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<section class="wrap tPresentation align-center pt2">
+<section class="wrap tPresentation align-center pt2 pl1 pr1">
     <h2>Le laboratoire</h2>
     <div class="wrap-medium r2cols pt2 pb3">
         <div class="r2cols-child">
@@ -29,7 +29,7 @@
 </section>
 
 <section class="bg-grey align-center pt3">
-    <div class="wrap tPresentation">
+    <div class="wrap tPresentation pl1 pr1">
         <h2>L'atelier</h2>
         <div class="wrap-medium r2cols pt2 pb3">
             <div class="r2cols-child">
@@ -43,7 +43,7 @@
     </div>
 </section>
 
-<section class="wrap tPresentation align-center pt2">
+<section class="wrap tPresentation align-center pt2 pl1 pr1">
     <h2>Le bureau</h2>
     <div class="wrap-medium r2cols pt2 pb3">
         <div class="r2cols-child">

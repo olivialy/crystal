@@ -1,8 +1,13 @@
 .menu
-    li
+    > li
         padding-bottom: 1em
         font-size: 2em
         list-style: none
+
+        > ul
+            font-size: .7em
+            list-style: none
+            line-height: 1.2
 
     a
         color: $colour.default
@@ -26,20 +31,8 @@
             transform: rotate(90deg)
             fill: $colour.crystal
 
-    &-expanded
-        position: relative
-
-        &:after
-            content: ''
-            display: block
-            position: absolute
-            bottom: 0
-            left: 50%
-            width: 0
-            height: @width
-            border: 10px solid transparent
-            border-bottom-color: $colour.default
-            transform: translateX(-100%)
+        li:not(.menu-active) a
+            color: $colour.default
 
     @media $screen.sm
         svg
@@ -50,6 +43,24 @@
             padding-right: 1em
             display: inline-block
             font-size: 1em
+
+            > ul
+                display: none
+
+        &-expanded
+            position: relative
+
+            &:after
+                content: ''
+                display: block
+                position: absolute
+                bottom: 0
+                left: 50%
+                width: 0
+                height: @width
+                border: 10px solid transparent
+                border-bottom-color: $colour.default
+                transform: translateX(-100%)
 
     @media $screen.lg
         li
