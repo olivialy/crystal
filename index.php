@@ -1,3 +1,4 @@
+<?php $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil'; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -8,7 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
 </head>
 <body>
-<?php $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil'; ?>
 <!-- svg symbols -->
 <div class="hidden"><?php include_once('web/svg/svg.svg') ?></div>
 
@@ -49,7 +49,7 @@
 <?php require_once('templates/_pages/_' . $page . '.php');?>
 
 <!-- footer -->
-<?php //require_once('templates/_components/_footer.php');?>
+<?php require_once('templates/_components/_footer.php');?>
 
 <!-- js -->
 <script src="web/js/html5shiv.min.js"></script>

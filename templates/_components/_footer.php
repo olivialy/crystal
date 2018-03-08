@@ -2,8 +2,8 @@
     <section class="wrap">
         <div class="rFooter wrap-medium clearfix pl1 pr1 mb1">
             <!-- address -->
-            <address class="rFooter-info pt1">
-                <svg height="47" width="206"><use xlink:href="#symbol-logo"></use></svg>
+            <address class="rFooter-address pt1">
+                <svg class="responsive" height="47" width="206"><use xlink:href="#symbol-logo"></use></svg>
                 <p>1 rue Jean Perrin - ZI du Pont Yblon<br />
                     93150 Le Blanc Mesnil<br />
                     Tél : +33 (0) 1 48 65 12 20<br />
@@ -11,7 +11,7 @@
             </address>
 
             <!-- social -->
-            <div class="rFooter-info align-center pt2">
+            <div class="rFooter-social align-center">
                 <ul class="inline">
                     <li><a href="#"><svg height="24" width="24"><use xlink:href="#symbol-facebook"></use></svg></a></li>
                     <li><a href="#"><svg height="24" width="24"><use xlink:href="#symbol-twitter"></use></svg></a></li>
