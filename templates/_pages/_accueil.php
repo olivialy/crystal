@@ -1,5 +1,5 @@
 <!-- l'art et la matière -->
-<section class="wrap mb4 pl1 pr1">
+<section class="wrap mb4">
     <h1 class="align-center mb1">
         <img src="web/img/baseline.jpg" height="102" width="563" alt="L'art et la matière"/>
     </h1>
@@ -40,7 +40,7 @@
 
 <!-- la matière travaillée -->
 <section class="wrap mb4">
-    <div class="wrap-medium align-center pl1 pr1">
+    <div class="wrap-medium align-center">
         <h2>La matière travaillée</h2>
         <p class="mb2">Découvrir l’envers du décor</p>
         <div class="r4cols">
@@ -66,7 +66,7 @@
 
 <!-- la matière transformée -->
 <section class="bg-grey mb4 pt4 pb4">
-    <div class="wrap align-center pl1 pr1">
+    <div class="wrap align-center">
         <h2>La matière transformée</h2>
         <p class="mb1">Vous donner l’EAU à la bouche</p>
         <p class="wrap-small mb2">
@@ -83,7 +83,7 @@
 </section>
 
 <!-- la matière grise -->
-<section class="wrap mb6 pl1 pr1">
+<section class="wrap mb6">
     <h2 class="align-center">La matière grise</h2>
     <p class="mb1 align-center">Rester toujours en MOUVEMENT</p>
     <a href="#" class="videolauncher">
@@ -107,16 +107,16 @@
 </section>
 
 <!-- news -->
-<section class="bg-grey mb2 pt2 pb2 pl1 pr1">
-    <h2 class="align-center mb2">Actualités</h2>
+<section class="bg-grey mb2 pt2 pb2">
     <div class="wrap mb2">
-        <?php include_once('templates/_components/_news.php'); ?>
+        <h2 class="align-center mb2">Actualités</h2>
+            <?php include_once('templates/_components/_news.php'); ?>
+        <p class="align-center"><a href="Actualites" class="cta">Voir toutes les actualités</a></p>
     </div>
-    <p class="align-center"><a href="Actualites" class="cta">Voir toutes les actualités</a></p>
 </section>
 
 <!-- newsletter -->
-<form class="wrap mb4 pl1 pr1" action="/">
+<form class="wrap mb4" action="/">
     <h2 class="align-center">Inscription newsletter</h2>
     <p class="align-center mb1">Briser la GLACE !</p>
     <div class="wrap-medium r2cols mb3">

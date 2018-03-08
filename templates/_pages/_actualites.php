@@ -8,7 +8,7 @@
         </div>
     </div>
 
-    <div class="wrap pl1 pr1">
+    <div class="wrap">
         <!-- section nav -->
         <div class="sectionnav align-center mt3 mb3">
             <ul>

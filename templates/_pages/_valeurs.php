@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<section class="wrap pl1 pr1">
+<section class="wrap">
     <div class="wrap-small insert">
         <h2>La créativité</h2>
         <p>Surmonter les contraintes que nous impose le réel pour sa transformation, voilà ce qu’est la créativité. Voilà ce que nous sommes. La matière s’apprivoise afin de devenir fiable pour sublimer vos événements. </p>
@@ -18,7 +18,7 @@
 </section>
 
 <section class="rCover rCover-value1">
-    <div class="rCover-content wrap pl1 pr1">
+    <div class="rCover-content wrap">
         <div class="sm-12 md-6 mr2 xl-5 ml2">
             <blockquote>
                 <p>« Toute grande œuvre d’art est le fruit d’une humilité profonde. »</p>
@@ -34,7 +34,7 @@
     </div>
 </section>
 
-<section class="wrap pl1 pr1">
+<section class="wrap">
     <div class="wrap-small insert">
         <h2>La patience</h2>
         <p>Nous prenons le temps de connaître parfaitement nos matières. Les apprivoiser à la perfection demande de l’investissement. Cet investissement nous permet d’être très réactif sur tous les projets car cette matière transformée n’a alors plus de secret pour nous.</p>
@@ -58,7 +58,7 @@
     </div>
 </section>
 
-<section class="wrap pl1 pr1">
+<section class="wrap">
     <div class="wrap-small insert">
         <h2>L'innovation</h2>
         <p>L’artisan comme l’artiste a soif d’innovation. Cette recherche perpétuelle et ces explorations de la matière sont les fondements même de Crystal Group. Nous repoussons nos limites afin d’offrir des réalisations sur-mesure.</p>
