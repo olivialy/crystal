@@ -1,5 +1,5 @@
 <!-- l'art et la matière -->
-<section class="wrap mb4">
+<section class="wrap mb4 pl1 pr1">
     <h1 class="align-center mb1">
         <img src="web/img/baseline.jpg" height="102" width="563" alt="L'art et la matière"/>
     </h1>
@@ -40,7 +40,7 @@
 
 <!-- la matière travaillée -->
 <section class="wrap mb4">
-    <div class="wrap-medium align-center">
+    <div class="wrap-medium align-center pl1 pr1">
         <h2>La matière travaillée</h2>
         <p class="mb2">Découvrir l’envers du décor</p>
         <div class="r4cols">
@@ -66,7 +66,7 @@
 
 <!-- la matière transformée -->
 <section class="bg-grey mb4 pt4 pb4">
-    <div class="wrap align-center">
+    <div class="wrap align-center pl1 pr1">
         <h2>La matière transformée</h2>
         <p class="mb1">Vous donner l’EAU à la bouche</p>
         <p class="wrap-small mb2">

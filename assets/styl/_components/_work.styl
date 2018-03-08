@@ -7,11 +7,6 @@
         height: auto
 
     &:before
-    &-detail
-        opacity: 0
-        transition: opacity .2s
-
-    &:before
         position: absolute
         top: 0
         right: 0
@@ -39,4 +34,16 @@
         &:before
         .work-detail
             opacity: 1
+
+    @media $screen.sm
+        &-detail
+            width: 100%
+            font-size: .9em
+            line-height: 1
+
+    @media $screen.md
+        &:before
+        &-detail
+            opacity: 0
+            transition: opacity .2s
 
