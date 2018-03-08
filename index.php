@@ -20,7 +20,7 @@
             <svg height="51" width="227"><use xlink:href="#symbol-logo"></use></svg>
             <span class="sr-only">Accueil</span>
         </a>
-        <nav class="rHeader-nav">
+        <nav id="menu" class="rHeader-nav">
             <ul class="rHeader-nav-main menu">
                 <li<?php if($page == 'accueil') echo ' class="menu-active"' ?>><a href="Accueil">Accueil</a></li>
                 <li<?php if(in_array($page, ['identite', 'organisation', 'valeurs'])) echo ' class="menu-active menu-expanded"' ?>><a href="Identite">Présentation</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
@@ -33,9 +33,9 @@
                 <a href="#"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
                 <a href="#" class="asidemenu-active">fr</a> / <a href="#">en</a>
             </p>
-            <button><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
+            <button id="close-menu"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
         </nav>
-        <button><svg height="21" width="21"><use xlink:href="#symbol-menu"></use> </svg><span class="sr-only">Menu</span></button>
+        <button id="open-menu"><svg height="21" width="21"><use xlink:href="#symbol-menu"></use> </svg><span class="sr-only">Menu</span></button>
     </div>
 
     <!-- header: sub nav -->

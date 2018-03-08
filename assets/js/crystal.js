@@ -1,4 +1,13 @@
 $(function() {
+    // open/close menu
+    $('#open-menu').on('click', function (){
+        $('#menu').addClass('rHeader-nav-open');
+    });
+
+    $('#close-menu').on('click', function (){
+        $('#menu').removeClass('rHeader-nav-open');
+    });
+
     // home: featured item
     var $featuredItem = $('.featured-item', '#featured');
     $featuredItem.hover(
