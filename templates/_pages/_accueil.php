@@ -11,27 +11,27 @@
     <!-- featured -->
     <ul id="featured" class="featured">
         <li class="featured-item featured-item-water">
-            <a href="/Matiere/Water">
+            <a href="Matiere-Water">
                 <svg height="90" width="90"><use xlink:href="#symbol-crystal-water"></use></svg>
             </a>
         </li>
         <li class="featured-item featured-item-ice">
-            <a href="/Matiere/Ice">
+            <a href="Matiere-Ice">
                 <svg height="90" width="90"><use xlink:href="#symbol-crystal-ice"></use></svg>
             </a>
         </li>
         <li class="featured-item featured-item-meca">
-            <a href="/Matiere/Meca">
+            <a href="Matiere-Meca">
                 <svg height="90" width="90"><use xlink:href="#symbol-crystal-meca"></use></svg>
             </a>
         </li>
         <li class="featured-item featured-item-decor">
-            <a href="/Matiere/Decor">
+            <a href="Matiere-Decor">
                 <svg height="90" width="90"><use xlink:href="#symbol-crystal-decor"></use></svg>
             </a>
         </li>
         <li class="featured-item featured-item-sfx">
-            <a href="/Matiere/SFX">
+            <a href="Matiere-SFX">
                 <svg height="90" width="90"><use xlink:href="#symbol-crystal-sfx"></use></svg>
             </a>
         </li>

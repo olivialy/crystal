@@ -58,7 +58,7 @@
     </div>
 </section>
 
-<section class="wrap">
+<section class="wrap pt2 mb4">
     <div class="wrap-small insert">
         <h2>L'innovation</h2>
         <p>L’artisan comme l’artiste a soif d’innovation. Cette recherche perpétuelle et ces explorations de la matière sont les fondements même de Crystal Group. Nous repoussons nos limites afin d’offrir des réalisations sur-mesure.</p>

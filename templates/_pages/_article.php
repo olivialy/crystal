@@ -11,7 +11,7 @@
 
     <div class="wrap">
         <!-- content -->
-        <div class="wrap-small tArticle mb2 pt1">
+        <div class="wrap-small tArticle mt2 mb2 pt1">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est purus, sollicitudin a tortor vel, scelerisque viverra diam. <strong>Vivamus convallis enim nibh, eu finibus nibh lobortis non. Cras tristique viverra quam a fringilla. Quisque mi ex, interdum quis nulla et, malesuada pulvinar augue. Aliquam rhoncus nec augue ac efficitur</strong>. Sed tortor enim, feugiat quis tellus ac, iaculis fringilla massa. Nam facilisis quam quam, at molestie nulla hendrerit at. Etiam volutpat ornare elit, vel ullamcorper erat dapibus non. Mauris eu odio et odio rhoncus tristique. Aliquam a varius velit.</p>
             <ul>
                 <li>Consectetur adipiscing elit vtae elit libero. Nullam id dolor id eget lacinia odio posuere erat a ante. Integer posuere erat dapibus posuere velit. Consectetur adipiscing elit vtae elit libero. Nullam id dolor id eget lacinia odio posuere erat a ante. Integer posuere erat dapibus posuere velit.</li>

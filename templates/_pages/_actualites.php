@@ -1,4 +1,4 @@
-<section id="news" class="mb3">
+<section id="news" class="mb6">
     <div class="rCover rCover-news">
         <div class="sectionhead sectionhead-black">
             <div class="sectionhead-content wrap">
@@ -23,6 +23,6 @@
         <?php include_once('templates/_components/_news.php'); ?>
 
         <!-- view all button -->
-        <p id="trigger-news" class="align-center mt3 mb3"><a href="Actualites/Tout" class="cta">Voir toutes les actualités</a></p>
+        <p id="trigger-news" class="align-center mt1"><a href="Actualites/Tout" class="cta">Voir toutes les actualités</a></p>
     </div>
 </section>

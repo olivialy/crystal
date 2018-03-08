@@ -52,7 +52,7 @@ $(function() {
         counted = false;
 
     $(window).on('scroll', function(){
-        if ($keyfigures.offset().top <= $(window).scrollTop() + $(window).height() * .95 && !counted) {
+        if ($keyfigures.length && $keyfigures.offset().top <= $(window).scrollTop() + $(window).height() * .95 && !counted) {
             counted = true;
             $('.keyfigures-counter', $keyfigures).each(function () {
                 $(this).prop('Counter', 0).animate({

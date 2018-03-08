@@ -43,9 +43,9 @@
     </div>
 </section>
 
-<section class="wrap tPresentation align-center pt2">
+<section class="wrap tPresentation align-center pt2 mb5">
     <h2>Le bureau</h2>
-    <div class="wrap-medium r2cols pt2 pb3">
+    <div class="wrap-medium r2cols pt2">
         <div class="r2cols-child">
             <img src="web/img/empty.jpg" height="320" width="600" alt="lorem ipsum" />
         </div>
