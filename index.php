@@ -1,4 +1,3 @@
-<?php $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil'; ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -9,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
 </head>
 <body>
+<?php $page = isset($_GET['page']) ? strtolower($_GET['page']) : 'accueil'; ?>
 <!-- svg symbols -->
 <div class="hidden"><?php include_once('web/svg/svg.svg') ?></div>
 
