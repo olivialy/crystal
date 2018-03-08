@@ -47,6 +47,28 @@ $(function() {
         }
     });
 
+    // material key figures counters
+    var $keyfigures = $('#keyfigures'),
+        counted = false;
+
+    $(window).on('scroll', function(){
+        if ($keyfigures.offset().top <= $(window).scrollTop() + $(window).height() * .95 && !counted) {
+            counted = true;
+            $('.keyfigures-counter', $keyfigures).each(function () {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 3000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+        }
+    });
+
+
     // news
     $('#trigger-news').on('click', function(e) {
         e.preventDefault();

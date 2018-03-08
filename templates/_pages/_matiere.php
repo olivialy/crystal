@@ -49,14 +49,14 @@
     </div>
 </section>
 
-<section class="keyfigures">
+<section id="keyfigures" class="keyfigures">
     <div class="wrap align-center keyfigures-content">
         <h2>Matière à réflexion</h2>
         <ul class="wrap-medium">
-            <li><span>300</span>projets glace et givre par an</li>
-            <li><span>5&nbsp;</span>projets mètres carrés de tapis glacier</li>
-            <li><span>600</span>tonnes de glace fabriquées / an</li>
-            <li><span>300</span>médailles d’or au championnat du monde de sculpture sur glace</li>
+            <li><span class="keyfigures-counter">300</span>projets glace et givre par an</li>
+            <li><span class="keyfigures-counter">5000</span>mètres carrés de tapis glacier</li>
+            <li><span class="keyfigures-counter">600</span>tonnes de glace fabriquées / an</li>
+            <li><span class="keyfigures-counter">2</span>médailles d’or au championnat du monde de sculpture sur glace</li>
         </ul>
     </div>
 </section>
