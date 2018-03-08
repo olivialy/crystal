@@ -32,7 +32,17 @@
                         <li<?php if($page == 'valeurs') echo ' class="menu-active"' ?>><a href="Valeurs">Nos valeurs</a></li>
                     </ul>
                 </li>
-                <li<?php if($page == 'matières') echo ' class="menu-active"' ?>><a href="Matieres">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg></li>
+                <li<?php if($page == 'matières') echo ' class="menu-active"' ?>>
+                    <a href="Matiere-Water">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg>
+                    <!-- sub nav // displayed only on small screens -->
+                    <ul>
+                        <li<?php if($material == 'water') echo ' class="menu-active"' ?>><a href="Matiere-Water">Water</a></li>
+                        <li<?php if($material == 'ice') echo ' class="menu-active"' ?>><a href="Matiere-Ice">Ice</a></li>
+                        <li<?php if($material == 'meca') echo ' class="menu-active"' ?>><a href="Matiere-Meca">Meca</a></li>
+                        <li<?php if($material == 'decor') echo ' class="menu-active"' ?>><a href="Matiere-Decor">Décor</a></li>
+                        <li<?php if($material == 'sfx') echo ' class="menu-active"' ?>><a href="Matiere-SFX">SFX</a></li>
+                    </ul>
+                </li>
                 <li<?php if($page == 'realisations') echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
                 <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
                 <li><a href="#">Contact</a></li>
