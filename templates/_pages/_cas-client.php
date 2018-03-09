@@ -102,12 +102,14 @@
         <!-- pagination -->
         <ul class="rGallery-pager">
             <li class="rGallery-pager-previous">
+                <svg width="35" height="35"><use xlink:href="#symbol-arrow"></use> </svg>
                 <a href="#"><span>Précédent</span>Titre cas client</a>
             </li>
             <li class="rGallery-pager-back">
                 <a href="Realisations">Revenir aux réalisations Glace / Givre</a>
             </li>
             <li class="rGallery-pager-next">
+                <svg width="35" height="35"><use xlink:href="#symbol-arrow"></use> </svg>
                 <a href="#"><span>Suivant</span>Titre cas client</a>
             </li>
         </ul>
