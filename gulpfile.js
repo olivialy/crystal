@@ -56,6 +56,7 @@ gulp.task('scripts', function()
             cfg.nodeDir + '/jquery/dist/jquery.js',
             cfg.nodeDir + '/headroom.js/dist/jQuery.headroom.js',
             cfg.nodeDir + '/headroom.js/dist/headroom.js',
+            cfg.nodeDir + '/sticky-kit/dist/sticky-kit.js',
             cfg.assetsDir + 'js/' + cfg.name +'.js'
         ])
         .pipe(plumber())

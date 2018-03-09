@@ -16,7 +16,7 @@
         </ul>
 
         <!-- showcase description -->
-        <div class="rGallery-detail showcase">
+        <div id="showcase-sticky" class="rGallery-detail showcase">
             <h2>Matières</h2>
             <ul class="showcase-material">
                 <li class="showcase-material-water">

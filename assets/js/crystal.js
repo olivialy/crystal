@@ -68,6 +68,9 @@ $(function() {
         }
     });
 
+    // showacase page: make right col sticky
+    console.log($("#showcase-sticky"));
+    $("#showcase-sticky").stick_in_parent();
 
     // news
     $('#trigger-news').on('click', function(e) {
