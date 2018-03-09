@@ -44,7 +44,7 @@
                         <li<?php if($material == 'sfx') echo ' class="menu-active"' ?>><a href="Matiere-SFX">SFX</a></li>
                     </ul>
                 </li>
-                <li<?php if($page == 'realisations') echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
+                <li<?php if(in_array($page, ['realisations', 'cas-client'])) echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
                 <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
                 <li<?php if($page == 'contact') echo ' class="menu-active"' ?>><a href="Contact">Contact</a></li>
             </ul>

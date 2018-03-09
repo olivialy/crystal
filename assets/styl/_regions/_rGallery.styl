@@ -1,0 +1,65 @@
+.rGallery
+    &-pager
+        display: flex
+        justify-content: space-between
+        padding-top: 5em
+        width: 100%
+        list-style: none
+
+        a
+            color: $colour.default
+
+
+        &-back
+            flex-grow: 2
+            font-size: _px2em(12px)
+            text-align: center
+            text-transform: uppercase
+
+            a
+                text-decoration: underline
+
+                &:hover
+                    text-decoration: none
+
+        &-previous
+        &-next
+            font-weight: bold
+            line-height: 1.3
+
+            span
+                display: block
+                font-size: _px2em(12px)
+                font-weight: normal
+
+            a
+                text-decoration: none
+
+                &:hover
+                    text-decoration: underline
+
+        &-next
+            text-align: right
+
+    &-images
+        width: 100%
+        list-style: none
+
+        li
+            padding-bottom: 2em
+
+        img
+            {responsive}
+            border-bottom: 11px solid $colour.crystal
+
+    @media $screen.md
+
+        &-detail
+            _column(4)
+            float: right
+
+        &-images
+            _column(8)
+            float: left
+            padding-right: 2em
+

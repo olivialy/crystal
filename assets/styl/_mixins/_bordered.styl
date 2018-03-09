@@ -4,6 +4,7 @@ $borderDefaultStyle = {
     mr: auto,
     mb: 0,
     ml: auto,
+    borderWidth: 2px,
     borderColour: $colour.crystal
 }
 
@@ -13,6 +14,7 @@ _bordered(customStyles={})
     mr = customStyles.mr ? customStyles.mr : $borderDefaultStyle.mr
     mb = customStyles.mb ? customStyles.mb : $borderDefaultStyle.mb
     ml = customStyles.ml ? customStyles.ml : $borderDefaultStyle.ml
+    borderWidth = customStyles.borderWidth ? customStyles.borderWidth : $borderDefaultStyle.borderWidth
     borderColour = customStyles.borderColour ? customStyles.borderColour : $borderDefaultStyle.borderColour
 
     &:after
@@ -20,4 +22,4 @@ _bordered(customStyles={})
         display: block
         width: w
         margin: mt mr mb ml
-        border-bottom: 2px solid borderColour
+        border-bottom: borderWidth solid borderColour

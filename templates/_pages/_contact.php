@@ -1,4 +1,4 @@
-<div class="rCover" style="background-image:url(web/img/cover-misc.jpg)">
+<div class="rCover rCover-misc">
     <div class="sectionhead sectionhead-black">
         <div class="sectionhead-content wrap">
             <h1>Contactez-nous</h1>
