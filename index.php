@@ -49,7 +49,7 @@
                 <li<?php if($page == 'contact') echo ' class="menu-active"' ?>><a href="Contact">Contact</a></li>
             </ul>
             <p class="rHeader-nav-aside asidemenu pb1">
-                <a href="#"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
+                <a href="Recherche" data-modal="#modal-search"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
                 <a href="#" class="asidemenu-active">fr</a> / <a href="#">en</a>
             </p>
             <button id="close-menu"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
@@ -74,16 +74,21 @@
 <!-- footer -->
 <?php require_once('templates/_components/_footer.php');?>
 
-<!-- modals -->
+<!-- modals: showcase -->
 <?php if (in_array($page, ['matiere', 'accueil'])) {?>
 <div id="modal-showcase" class="modal" aria-hidden="true">
-    <?php
-    $dontstick = true;
-    include_once('templates/_pages/_cas-client.php');
-    ?>
+    <?php $dontstick = true; ?>
+    <?php include_once('templates/_pages/_cas-client.php'); ?>
     <button class="modal-close" data-modal="#modal-showcase"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
 </div>
 <?php } ?>
+
+<!-- modals: search -->
+<div id="modal-search" class="modal modal-search" aria-hidden="true">
+    <?php include_once('templates/_pages/_recherche.php');?>
+    <button class="modal-close" data-modal="#modal-search"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
+</div>
+
 <!-- js -->
 <script src="web/js/html5shiv.min.js"></script>
 <script src="web/js/crystal.js"></script>
