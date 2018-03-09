@@ -46,7 +46,7 @@
                 </li>
                 <li<?php if($page == 'realisations') echo ' class="menu-active"' ?>><a href="Realisations">Réalisations</a></li>
                 <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
-                <li><a href="#">Contact</a></li>
+                <li<?php if($page == 'contact') echo ' class="menu-active"' ?>><a href="Contact">Contact</a></li>
             </ul>
             <p class="rHeader-nav-aside asidemenu pb1">
                 <a href="#"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
