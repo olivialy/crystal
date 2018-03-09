@@ -74,6 +74,16 @@
 <!-- footer -->
 <?php require_once('templates/_components/_footer.php');?>
 
+<!-- modals -->
+<?php if (in_array($page, ['matiere', 'accueil'])) {?>
+<div id="modal-showcase" class="modal" aria-hidden="true">
+    <?php
+    $dontstick = true;
+    include_once('templates/_pages/_cas-client.php');
+    ?>
+    <button class="modal-close" data-modal="#modal-showcase"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
+</div>
+<?php } ?>
 <!-- js -->
 <script src="web/js/html5shiv.min.js"></script>
 <script src="web/js/crystal.js"></script>

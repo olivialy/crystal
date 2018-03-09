@@ -1,4 +1,8 @@
 $(function() {
+    var $body = $('body'),
+        $keyfigures = $('#keyfigures'),
+        counted = false;
+
     // headroom.js
     // handle .header show/hide animation
     $("#header").headroom({
@@ -48,9 +52,6 @@ $(function() {
     });
 
     // material key figures counters
-    var $keyfigures = $('#keyfigures'),
-        counted = false;
-
     $(window).on('scroll', function(){
         if ($keyfigures.length && $keyfigures.offset().top <= $(window).scrollTop() + $(window).height() * .95 && !counted) {
             counted = true;
@@ -68,9 +69,32 @@ $(function() {
         }
     });
 
-    // showacase page: make right col sticky
-    console.log($("#showcase-sticky"));
+    // showcase: page: make right col sticky
     $("#showcase-sticky").stick_in_parent();
+
+    // showcase: open in modal
+    function toggleModal($modal) {
+        // open/close modal
+        // + allow/disallow body scroll
+        if ($modal.is('[aria-hidden]')) {
+            $body.css('overflow', 'hidden');
+            $modal.removeAttr('aria-hidden');
+        } else {
+            $modal.attr('aria-hidden', true);
+            $body.removeAttr('style');
+        }
+    }
+
+    $body.on('click', '[data-modal]', function(e) {
+        var target = $(this).attr('data-modal'),
+            $target = $(target);
+
+        if($target.length) {
+            e.preventDefault();
+            toggleModal($target);
+        }
+
+    });
 
     // news
     $('#trigger-news').on('click', function(e) {

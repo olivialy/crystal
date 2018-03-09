@@ -9,14 +9,16 @@
 
 <section class="rGallery showcase wrap mb6">
     <div class="wrap-medium">
-        <ul class="rGallery-pager mb2">
+        <?php if (!isset($dontstick)) { ?>
+        <ul class="rGallery-pager">
             <li class="rGallery-pager-back">
-                <a href="#">Revenir aux réalisations Glace / Givre</a>
+                <a href="Realisations">Revenir aux réalisations Glace / Givre</a>
             </li>
         </ul>
+        <?php } ?>
 
         <!-- showcase description -->
-        <div id="showcase-sticky" class="rGallery-detail showcase">
+        <div<?php if (!isset($dontstick)) echo ' id="showcase-sticky"'?> class="rGallery-detail showcase mt2">
             <h2>Matières</h2>
             <ul class="showcase-material">
                 <li class="showcase-material-water">
@@ -85,7 +87,7 @@
         </div>
 
         <!-- image gallery -->
-        <ul class="rGallery-images">
+        <ul class="rGallery-images mt2">
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
@@ -96,17 +98,25 @@
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
         </ul>
 
+        <?php if (!isset($dontstick)) { ?>
         <!-- pagination -->
         <ul class="rGallery-pager">
             <li class="rGallery-pager-previous">
                 <a href="#"><span>Précédent</span>Titre cas client</a>
             </li>
             <li class="rGallery-pager-back">
-                <a href="#">Revenir aux réalisations Glace / Givre</a>
+                <a href="Realisations">Revenir aux réalisations Glace / Givre</a>
             </li>
             <li class="rGallery-pager-next">
                 <a href="#"><span>Suivant</span>Titre cas client</a>
             </li>
         </ul>
+        <?php } else { ?>
+            <ul class="rGallery-pager">
+                <li class="rGallery-pager-back">
+                    <a href="Realisations" data-modal="#modal-showcase"><strong>Fermer</strong></a>
+                </li>
+            </ul>
+        <?php }?>
     </div>
 </section>
