@@ -1,9 +1,9 @@
 <?php $material = strtolower($_GET['material']) ?>
-<div class="rCover rCover-matiere">
+<div class="rCover rCover-<?php echo $material ?>">
     <div class="sectionhead sectionhead-black">
         <div class="sectionhead-content wrap">
             <h1><?php echo $material ?></h1>
-            <p class="wrap-small">La glace est la matière de prédilection de Crystal Group. <strong>Depuis plus de 20 ans</strong>, nous utilisons cette glace ainsi que le givre pour rendre vos événements élégants et uniques. Nous sculptons, créons et imaginons vos décors intérieurs, extérieurs et vos animations. <strong>Un peu de magie surgit autour de vous et un parfum de pureté accompagne votre image.</strong></p>
+            <p class="sectionhead-subheading wrap-small">La glace est la matière de prédilection de Crystal Group. <strong>Depuis plus de 20 ans</strong>, nous utilisons cette glace ainsi que le givre pour rendre vos événements élégants et uniques. Nous sculptons, créons et imaginons vos décors intérieurs, extérieurs et vos animations. <strong>Un peu de magie surgit autour de vous et un parfum de pureté accompagne votre image.</strong></p>
         </div>
     </div>
 </div>
@@ -49,7 +49,7 @@
     </div>
 </section>
 
-<section id="keyfigures" class="keyfigures">
+<section id="keyfigures" class="keyfigures<?php if ($material == 'water') echo ' keyfigures-water'?>">
     <div class="wrap align-center keyfigures-content">
         <h2>Matière à réflexion</h2>
         <ul class="wrap-medium">

@@ -16,8 +16,10 @@
     &-active
         font-weight: bold
 
+        a
+            text-decoration: underline
+
     for material in $materials
         &-{material}
             .sectionnav-active a
                 color: $colour[material]
-                text-decoration: underline

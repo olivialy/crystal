@@ -13,7 +13,10 @@
         align-items: center
         justify-content: center
 
-    for covername in realisations news presentation value1 value2 matiere misc
+    covers = realisations news presentation value1 value2 misc
+    push(covers, $materials)
+
+    for covername in covers
         &-{covername}
             background-image: "url(../img/cover-%s.jpg)" % s(covername)
 

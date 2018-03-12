@@ -2,8 +2,10 @@
     <div class="wrap">
         <p class="showcasehead-date">2016</p>
         <h1>La Forge aux étoiles</h1>
-        <p class="showcasehead-place wrap-small">Futuroscope / Poitiers / France </p>
-        <p class="showcasehead-title wrap-small">titre de la production</p>
+        <h2 class="showcasehead-title wrap-small">
+            <span>Futuroscope / Poitiers / France</span>
+            Titre de la production
+        </h2>
     </div>
 </div>
 
@@ -19,7 +21,7 @@
 
         <!-- showcase description -->
         <div<?php if (!isset($dontstick)) echo ' id="showcase-sticky"'?> class="rGallery-detail showcase mt2">
-            <h2>Matières</h2>
+            <p class="showcase-heading">Matières</p>
             <ul class="showcase-material">
                 <li class="showcase-material-water">
                     <svg height="48" width="48">
@@ -38,7 +40,7 @@
                 </li>
             </ul>
 
-            <h2>Compétences</h2>
+            <p class="showcase-heading">Compétences</p>
             <dl class="showcase-skills">
                 <dt>Eau</dt>
                 <dd>
@@ -56,11 +58,11 @@
                 <dd>flammes</dd>
             </dl>
 
-            <h2>Durée</h2>
+            <p class="showcase-heading">Durée</p>
             <p>Pérenne</p>
 
             <div class="showcase-detail pt1 mb2">
-                <h2>Spectacle aquatique multimédias</h2>
+                <h3 class="showcase-heading">Spectacle aquatique multimédias</h3>
                 <p>L’Aquaféerie nocturne du Futuroscope imaginée par le Cirque du Soleil met en scène un impressionnant dispositif technique déployé sur le théâtre aquatique de 7000m2.</p>
                 <p>A la demande du Cirque du Soleil, CG a réalisé l’étude, la conception et la fabrication :</p>
                 <ul>

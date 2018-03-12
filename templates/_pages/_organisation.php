@@ -5,7 +5,7 @@
                 Notre organisation<br />
                 <span>La chaîne de transformation</span>
             </h1>
-            <p class="wrap-small">Sur plus de 7 000 m² de bâtiments, Crystal Group possède les capacités organisationnelles et humaines pour répondre à tous vos besoins. Ainsi, ce sont 50 personnes qui travaillent en interne et se répartissent entre le laboratoire, l’atelier et le bureau. </p>
+            <p class="sectionhead-subheading wrap-small">Sur plus de 7 000 m² de bâtiments, Crystal Group possède les capacités organisationnelles et humaines pour répondre à tous vos besoins. Ainsi, ce sont 50 personnes qui travaillent en interne et se répartissent entre le laboratoire, l’atelier et le bureau. </p>
         </div>
     </div>
 </div>

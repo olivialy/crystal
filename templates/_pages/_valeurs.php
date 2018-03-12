@@ -5,7 +5,7 @@
                 Nos valeurs<br />
                 <span>Au coeur de notre stratégie</span>
             </h1>
-            <p class="wrap-small">Nous sommes attentifs à la direction que nous insufflons à Crystal Group. Nous savons où nous voulons aller et nous voulons le faire de la meilleure des manières. C’est pour cela qu’au quotidien, nous défendons certaines valeurs.</p>
+            <p class="sectionhead-subheading wrap-small">Nous sommes attentifs à la direction que nous insufflons à Crystal Group. Nous savons où nous voulons aller et nous voulons le faire de la meilleure des manières. C’est pour cela qu’au quotidien, nous défendons certaines valeurs.</p>
         </div>
     </div>
 </div>

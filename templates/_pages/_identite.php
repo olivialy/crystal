@@ -5,7 +5,7 @@
                 Notre identité<br />
                 <span>La créativité et l'expertise</span>
             </h1>
-            <p class="wrap-small">Crystal Group s’articule autour de vos projets et de vos événements. Nous nous appuyons sur vos contraintes d’organisation, de lieux et de temps pour mettre en place tout un processus de création et de fabrication efficace. </p>
+            <p class="sectionhead-subheading wrap-small">Crystal Group s’articule autour de vos projets et de vos événements. Nous nous appuyons sur vos contraintes d’organisation, de lieux et de temps pour mettre en place tout un processus de création et de fabrication efficace. </p>
         </div>
     </div>
 </div>
@@ -16,7 +16,7 @@
             <img src="web/img/empty.jpg" height="320" width="600" alt="lorem ipsum" />
         </div>
         <div class="r2cols-child">
-            <h3>Créateur d’événements et d’émotions esthétiques</h3>
+            <h2>Créateur d’événements et d’émotions esthétiques</h2>
             <p>Crystal Group est spécialisé dans la création d’événements à travers le monde.<br />
                 <strong>Ces événements ont tous une chose en commun : la matière.</strong> Nous domptons l’eau, sculptons la glace, façonnons la neige. Nous maîtrisons le mouvement et l’ingénierie, imaginons desdécorations personnalisées, et nous contrôlons le feu et les effets spéciaux. Notre objectif est de provoquer, grâce à notre savoir-faire, de véritables émotions esthétiques. <br />
                 Que ce soit pour <strong>une réalisation éphémère ou pérenne</strong>, nous intervenons pour de multiples problématiques. Nos principaux clients sont des sociétés de productions, collectivités locales, agences événementielles, traiteurs, artistes, cabinets d’architecture, groupes hôteliers, promoteurs immobiliers, sites touristiques (parcs d’attractions, monuments...).</p>
@@ -33,7 +33,7 @@
 
         <div class="wrap-medium r2cols pt2 pb3">
             <div class="r2cols-child">
-                <h3>Conjuguer technique et artistique</h3>
+                <h2>Conjuguer technique et artistique</h2>
                 <p>Nous aimons à nous définir comme artistes-artisans.
                     Cette approche est insufflée par le directeur général, également directeur artistique et
                     technique, de Crystal Group : Michel Amann. Ingénieur créatif, Michel commence sa carrière comme sculpteur sur glace. Sa soif d’innovation l’amène à inventer ses propres machines et dispositifs. Il s’entoure d’experts et d’artistes pour créer Crystal group en 1998. Depuis cette date, la recherche de matériaux toujours plus fiables et de procédés innovants a permis la création des cinq pôles du groupe : la glace, l’eau, les décors, les effets spéciaux et l’ingénierie.</p>
@@ -63,9 +63,9 @@
                 <p class="chronology-description">La glace se décline en patinoires et pistes de luge</p>
             </div>
         </li>
-        <li class="chronology-2006">
+        <li class="chronology-2002">
             <div class="chronology-content">
-                <p class="chronology-year">2006</p>
+                <p class="chronology-year">2002</p>
                 <p class="chronology-title">L'eau</p>
                 <p class="chronology-description">L’état liquide de la glace rejoint Crystal Group</p>
             </div>
@@ -95,7 +95,7 @@
 </section>
 
 <section class="tIdentity wrap align-center pt3">
-    <h3>Un groupe international</h3>
+    <h2>Un groupe international</h2>
     <p class="mb2">Depuis plus de 10 ans, Crystal Group s'implante à l'étranger.</p>
     <div class="map">
         <img class="map-img" height="476" width="808" src="web/img/identite-carte.jpg" alt="Carte : Crystal Groupe dans le monde" />

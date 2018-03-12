@@ -4,7 +4,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width">
     <title>Crystal Group</title>
     <link href="web/css/crystal.min.css"  rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
@@ -33,7 +33,7 @@
                         <li<?php if($page == 'valeurs') echo ' class="menu-active"' ?>><a href="Valeurs">Nos valeurs</a></li>
                     </ul>
                 </li>
-                <li<?php if($page == 'matières') echo ' class="menu-active"' ?>>
+                <li<?php if($page == 'matiere') echo ' class="menu-active menu-expanded"' ?>>
                     <a href="Matiere-Water">Matières</a> <svg height="9" width="7"><use xlink:href="#symbol-chevron"></use></svg>
                     <!-- sub nav // displayed only on small screens -->
                     <ul>

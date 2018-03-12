@@ -1,13 +1,14 @@
 .tPresentation
-    h2
+    > h2
         display: inline-block
         background-color: $colour.crystal
         color: white
         padding: 0 .5em
 
-    h3
+    div h3, div h2
         _bordered()
         padding-bottom: 1em
+        font-size: _px2em(18px)
         text-transform: none
         color: $colour.default
 
