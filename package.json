@@ -1,5 +1,5 @@
 {
-  "name": "cop21",
+  "name": "crystal",
   "version": "0.0.1",
   "license": "proprietary",
   "private": true,
@@ -12,7 +12,6 @@
     "gulp-plumber": "^1.0.1",
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-rev": "^6.0.1",
     "gulp-stylus": "^2.0.7",
     "gulp-svgmin": "^1.2.4",
     "gulp-svgstore": "6.1.0",
