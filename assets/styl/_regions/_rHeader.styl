@@ -1,10 +1,14 @@
 .rHeader
     display: flex
+    justify-content: space-between
     padding-top: 1em
 
     button
         {topRightButton}
         {triggerButton}
+
+    svg
+        vertical-align: text-bottom
 
     &-brand
         width: 15%
@@ -25,6 +29,8 @@
             display: none
 
         &-aside
+            padding-bottom: 1em
+            padding-right: .5em
             text-align: center
 
         &-main
@@ -46,7 +52,15 @@
             height: 100%
             background-color: white
             transition: transform .4s
-            transform: translateY(-100%)
+            transform: translateY(-200%)
+
+            &-aside
+            &-main
+                width: 100%
+
+            &-aside
+                svg
+                    transform: scale(1.5)
 
             &-open
                 transform: translateY(0)

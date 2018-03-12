@@ -1,5 +1,7 @@
 $(function() {
     var $body = $('body'),
+        $header = $('#header'),
+        $menu = $('#menu'),
         $keyfigures = $('#keyfigures'),
         counted = false;
 
@@ -21,11 +23,15 @@ $(function() {
 
     // open/close menu
     $('#open-menu').on('click', function (){
-        $('#menu').addClass('rHeader-nav-open');
+        $menu.addClass('rHeader-nav-open');
+        $body.css('overflow', 'hidden');
+        $header.css('opacity', 1);
     });
 
     $('#close-menu').on('click', function (){
-        $('#menu').removeClass('rHeader-nav-open');
+        $menu.removeClass('rHeader-nav-open');
+        $body.removeAttr('style');
+        $header.removeAttr('style');
     });
 
     // works

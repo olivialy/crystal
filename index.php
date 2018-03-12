@@ -48,12 +48,12 @@
                 <li<?php if($page == 'actualites') echo ' class="menu-active"' ?>><a href="Actualites">Actualités</a></li>
                 <li<?php if($page == 'contact') echo ' class="menu-active"' ?>><a href="Contact">Contact</a></li>
             </ul>
-            <p class="rHeader-nav-aside asidemenu pb1">
+            <p class="rHeader-nav-aside">
                 <a href="Recherche" data-modal="#modal-search"><svg height="24" width="24"><use xlink:href="#symbol-search"></use></svg></a>
-                <a href="#" class="asidemenu-active">fr</a> / <a href="#">en</a>
             </p>
             <button id="close-menu"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
         </nav>
+        <p class="switchlang"><a href="#" class="asidemenu-active">fr</a> / <a href="#">en</a></p>
         <button id="open-menu"><svg height="21" width="21"><use xlink:href="#symbol-menu"></use> </svg><span class="sr-only">Menu</span></button>
     </div>
 

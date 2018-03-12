@@ -1,4 +1,6 @@
-.asidemenu
+.switchlang
+    padding-bottom: 1em
+
     a
         margin: 0 .25em
         color: $colour.default
@@ -10,16 +12,5 @@
     a&-active
         text-decoration: underline
 
-    svg
-        vertical-align: middle
-
     @media $screen.sm
-        width: 100%
-        font-size: 2em
-
-        a
-            font-weight: bold
-
-        svg
-            margin-right: .5em
-            transform: scale(1.5)
+        margin-right: 42px // needed to display icon menu which is positionned absolutely
