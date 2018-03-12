@@ -21,6 +21,21 @@ $(function() {
         }
     });
 
+    // handle .scrolltip show/hide animation
+    $("#scrolltip").headroom({
+        "offset": 50,
+        "tolerance": 5,
+        "classes": {
+            initial:    'scrolltip',              // when element is initialised
+            pinned:     'scrolltip-pinned',       // when scrolling up
+            unpinned:   'scrolltip-unpinned',     // when scrolling down
+            top:        'scrolltip-top',          // when above offset
+            notTop:     'scrolltip-not-top',      // when below offset
+            bottom:     'scrolltip-bottom',       // when at bottom of scoll area
+            notBottom:  'scrolltip-not-bottom'    // when not at bottom of scroll area
+        }
+    });
+
     // open/close menu
     $('#open-menu').on('click', function (){
         $menu.addClass('rHeader-nav-open');
