@@ -84,8 +84,11 @@
 <!-- modals: showcase -->
 <?php if (in_array($page, ['matiere', 'accueil'])) {?>
 <div id="modal-showcase" class="modal" aria-hidden="true">
-    <?php $dontstick = true; ?>
-    <?php include_once('templates/_pages/_cas-client.php'); ?>
+    <!--
+        NB: right column must be sticky in page "Cas client"
+        => we need to load it into an iframe to keep this behavior in a modal
+    -->
+    <iframe class="modal-iframe" src="iframe-cas-client.php"></iframe>
     <button class="modal-close" data-modal="#modal-showcase"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
 </div>
 <?php } ?>

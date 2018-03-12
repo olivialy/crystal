@@ -1,5 +1,6 @@
 $(function() {
-    var $body = $('body'),
+    var windowWidth = window.innerWidth,
+        $body = $('body'),
         $header = $('#header'),
         $menu = $('#menu'),
         $keyfigures = $('#keyfigures'),
@@ -22,19 +23,21 @@ $(function() {
     });
 
     // handle .scrolltip show/hide animation
-    $("#scrolltip").headroom({
-        "offset": 50,
-        "tolerance": 5,
-        "classes": {
-            initial:    'scrolltip',              // when element is initialised
-            pinned:     'scrolltip-pinned',       // when scrolling up
-            unpinned:   'scrolltip-unpinned',     // when scrolling down
-            top:        'scrolltip-top',          // when above offset
-            notTop:     'scrolltip-not-top',      // when below offset
-            bottom:     'scrolltip-bottom',       // when at bottom of scoll area
-            notBottom:  'scrolltip-not-bottom'    // when not at bottom of scroll area
-        }
-    });
+    if (windowWidth > 767) {
+        $("#scrolltip").headroom({
+            "offset": 50,
+            "tolerance": 5,
+            "classes": {
+                initial: 'scrolltip',              // when element is initialised
+                pinned: 'scrolltip-pinned',       // when scrolling up
+                unpinned: 'scrolltip-unpinned',     // when scrolling down
+                top: 'scrolltip-top',          // when above offset
+                notTop: 'scrolltip-not-top',      // when below offset
+                bottom: 'scrolltip-bottom',       // when at bottom of scoll area
+                notBottom: 'scrolltip-not-bottom'    // when not at bottom of scroll area
+            }
+        });
+    }
 
     // open/close menu
     $('#open-menu').on('click', function (){
@@ -91,7 +94,9 @@ $(function() {
     });
 
     // showcase: page: make right col sticky
-    $("#showcase-sticky").stick_in_parent();
+    if (windowWidth > 767 && $("#showcase-sticky").length) {
+        $("#showcase-sticky").stick_in_parent();
+    }
 
     // showcase: open in modal
     function toggleModal($modal) {

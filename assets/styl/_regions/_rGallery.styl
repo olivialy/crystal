@@ -53,25 +53,27 @@
                 float: right
                 margin-left: 1em
 
-    &-images
-        width: 100%
-        list-style: none
-
-        li
-            padding-bottom: 2em
-
-        img
-            {responsive}
-            border-bottom: 11px solid $colour.crystal
-
-    @media $screen.md
-
-        &-detail
-            _column(4)
-            float: right
+    &-content
+        {clearfix}
 
         &-images
-            _column(8)
-            float: left
-            padding-right: 2em
+            width: 100%
+            list-style: none
 
+            li
+                padding-bottom: 2em
+
+            img
+                {responsive}
+                border-bottom: 11px solid $colour.crystal
+
+    @media $screen.md
+        &-content
+            &-detail
+                _column(4)
+                float: right
+
+            &-images
+                _column(8)
+                float: left
+                padding-right: 2em

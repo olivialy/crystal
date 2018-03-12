@@ -10,17 +10,19 @@
 </div>
 
 <section class="rGallery showcase wrap mb6">
-    <div class="wrap-medium">
-        <?php if (!isset($dontstick)) { ?>
-        <ul class="rGallery-pager">
-            <li class="rGallery-pager-back">
-                <a href="Realisations">Revenir aux réalisations Glace / Givre</a>
-            </li>
-        </ul>
-        <?php } ?>
+    <!-- top pager -->
+    <?php if (!isset($isIframe)) { ?>
+    <ul class="rGallery-pager">
+        <li class="rGallery-pager-back">
+            <a href="Realisations">Revenir aux réalisations Glace / Givre</a>
+        </li>
+    </ul>
+    <?php } ?>
 
+    <!-- page content -->
+    <div class="rGallery-content wrap-medium">
         <!-- showcase description -->
-        <div<?php if (!isset($dontstick)) echo ' id="showcase-sticky"'?> class="rGallery-detail showcase mt2">
+        <div id="showcase-sticky" class="rGallery-content-detail showcase mt2">
             <p class="showcase-heading">Matières</p>
             <ul class="showcase-material">
                 <li class="showcase-material-water">
@@ -89,7 +91,7 @@
         </div>
 
         <!-- image gallery -->
-        <ul class="rGallery-images mt2">
+        <ul class="rGallery-content-images mt2">
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
@@ -100,27 +102,29 @@
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
         </ul>
 
-        <?php if (!isset($dontstick)) { ?>
-        <!-- pagination -->
+    </div>
+
+    <!-- bottom pager -->
+    <?php if (!isset($isIframe)) { ?>
+    <!-- pagination -->
+    <ul class="rGallery-pager wrap-medium">
+        <li class="rGallery-pager-previous">
+            <svg width="35" height="35"><use xlink:href="#symbol-arrow"></use> </svg>
+            <a href="#"><span>Précédent</span>Titre cas client</a>
+        </li>
+        <li class="rGallery-pager-back">
+            <a href="Realisations">Revenir aux réalisations Glace / Givre</a>
+        </li>
+        <li class="rGallery-pager-next">
+            <svg width="35" height="35"><use xlink:href="#symbol-arrow"></use> </svg>
+            <a href="#"><span>Suivant</span>Titre cas client</a>
+        </li>
+    </ul>
+    <?php } else { ?>
         <ul class="rGallery-pager">
-            <li class="rGallery-pager-previous">
-                <svg width="35" height="35"><use xlink:href="#symbol-arrow"></use> </svg>
-                <a href="#"><span>Précédent</span>Titre cas client</a>
-            </li>
             <li class="rGallery-pager-back">
-                <a href="Realisations">Revenir aux réalisations Glace / Givre</a>
-            </li>
-            <li class="rGallery-pager-next">
-                <svg width="35" height="35"><use xlink:href="#symbol-arrow"></use> </svg>
-                <a href="#"><span>Suivant</span>Titre cas client</a>
+                <a href="Realisations" data-modal="#modal-showcase"><strong>Fermer</strong></a>
             </li>
         </ul>
-        <?php } else { ?>
-            <ul class="rGallery-pager">
-                <li class="rGallery-pager-back">
-                    <a href="Realisations" data-modal="#modal-showcase"><strong>Fermer</strong></a>
-                </li>
-            </ul>
-        <?php }?>
-    </div>
+    <?php }?>
 </section>
