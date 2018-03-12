@@ -7,14 +7,14 @@
         </div>
     </div>
 
-    <div class="wrap align-center pt2">
+    <div id="worknav" class="wrap align-center pt2">
         <h2 class="mb1">Choisissez une matière</h2>
         <ul class="worknav mb2">
-            <li class="worknav-water<?php if ($material == 'water') echo " worknav-active" ?>"><a href="Realisations-Water"><svg height="95" width="95"><use xlink:href="#symbol-crystal-water"></use></svg></a></li>
-            <li class="worknav-ice<?php if ($material == 'ice') echo " worknav-active" ?>"><a href="Realisations-Ice"><svg height="95" width="95"><use xlink:href="#symbol-crystal-ice"></use></svg></a></li>
-            <li class="worknav-meca<?php if ($material == 'meca') echo " worknav-active" ?>"><a href="Realisations-Meca"><svg height="95" width="95"><use xlink:href="#symbol-crystal-meca"></use></svg></a></li>
-            <li class="worknav-decor<?php if ($material == 'decor') echo " worknav-active" ?>"><a href="Realisations-Decor"><svg height="95" width="95"><use xlink:href="#symbol-crystal-decor"></use></svg></a></li>
-            <li class="worknav-sfx<?php if ($material == 'sfx') echo " worknav-active" ?>"><a href="Realisations-SFX"><svg height="95" width="95"><use xlink:href="#symbol-crystal-sfx"></use></svg></a></li>
+            <li class="worknav-water<?php if ($material == 'water') echo " worknav-active" ?>"><a href="Realisations-Water#worknav"><svg height="95" width="95"><use xlink:href="#symbol-crystal-water"></use></svg></a></li>
+            <li class="worknav-ice<?php if ($material == 'ice') echo " worknav-active" ?>"><a href="Realisations-Ice#worknav"><svg height="95" width="95"><use xlink:href="#symbol-crystal-ice"></use></svg></a></li>
+            <li class="worknav-meca<?php if ($material == 'meca') echo " worknav-active" ?>"><a href="Realisations-Meca#worknav"><svg height="95" width="95"><use xlink:href="#symbol-crystal-meca"></use></svg></a></li>
+            <li class="worknav-decor<?php if ($material == 'decor') echo " worknav-active" ?>"><a href="Realisations-Decor#worknav"><svg height="95" width="95"><use xlink:href="#symbol-crystal-decor"></use></svg></a></li>
+            <li class="worknav-sfx<?php if ($material == 'sfx') echo " worknav-active" ?>"><a href="Realisations-SFX#worknav"><svg height="95" width="95"><use xlink:href="#symbol-crystal-sfx"></use></svg></a></li>
         </ul>
 
         <?php

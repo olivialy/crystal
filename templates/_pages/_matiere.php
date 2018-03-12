@@ -10,7 +10,7 @@
 
 <section class="tMaterial tMaterial-<?php echo $material?> wrap pt2 pb2">
     <div class="r2cols wrap-medium align-center">
-        <div class="r2cols-child">
+        <div class="r2cols-child r2cols-first">
             <h2>La matière</h2>
             <p>La glace et le givre, deux matières qui subliment et mettent en valeur votre événement ou votre décor. Par le caractère éphémère de la glace, chaque pièce produite devient unique. <strong>Bars en glace, ice bars, décors de buffets, de tables , performance live, pistes de luge, patinoires</strong>, la glace se décline dans des réalisations simples ou des œuvres plus monumentales.</p>
             <p><span>Une matière pour sublimer</span></p>
@@ -27,7 +27,7 @@
             <div class="r2cols-child">
                 <img src="web/img/empty.jpg" height="320" width="600" alt="lorem ipsum" />
             </div>
-            <div class="r2cols-child">
+            <div class="r2cols-child r2cols-first">
                 <h2>Nos artistes</h2>
                 <p>Dans l’atelier de Crystal Group, ce sont <strong>plus d’une dizaine de sculpteurs</strong> qui œuvrent à la création de sculptures et de décors en glace et/ou en givre. Nos professionnels se déplacent également lors de vos événements afin de sculpter en direct, une animation toujours très appréciée. Tous passionnés, nos <strong>sculpteurs sont des artistes reconnus mais également des techniciens de la glace</strong> qui se remettent sans cesse en question afin d’innover et de se perfectionner. </p>
                 <p><span>L’art et l’innovation</span></p>
@@ -38,7 +38,7 @@
 
 <section class="tMaterial tMaterial-<?php echo $material?> r2cols wrap pt2 pb4">
     <div class="r2cols wrap-medium align-center">
-        <div class="r2cols-child">
+        <div class="r2cols-child r2cols-first">
             <h2>Nos métiers</h2>
             <p>Autour de la glace et du givre, nos équipes de techniciens créent une glace particulièrement transparente et de qualité, issue d’<strong>un procédé breveté (1989) par Crystal Group</strong>. Nous nous occupons ensuite de tout livrer et d’installer sur le lieu de votre événement, <strong>partout en France et dans le monde</strong>, grâce à notre logistique encadrée et minutieuse.</p>
             <p><span>L’art et la Rigueur</span></p>

@@ -1,8 +1,18 @@
 .worknav
+    {clearfix}
+    width: 100%
+    max-width: 700px
+    margin: 0 auto
+    list-style: none
+
     > li
-        display: inline
+        float: left
+        width: calc(20% - 2em)
         margin: 0 1em
         padding-bottom: .5em
+
+    svg
+        {responsive}
 
     &-active
         border-bottom: 4px solid $colour.default
@@ -16,3 +26,8 @@
 
         &-active&-{material}
             border-color: $colour[material]
+
+    @media $screen.sm
+        > li
+            width: calc(20% - 1em)
+            margin: 0 .5em
