@@ -1,12 +1,13 @@
 .worknav
-    {clearfix}
+    display: flex
+    justify-content: center
     width: 100%
     max-width: 760px
     margin: 0 auto
+    list-style: none
 
     > li
-        display: inline-block
-        width: calc(20% - 2.5em)
+        width: 20%
         margin: 0 1em
         padding-bottom: .5em
 
@@ -28,5 +29,4 @@
 
     @media $screen.sm
         > li
-            width: calc(20% - 1em)
-            margin: 0 .5em
+            margin: 0 .25em
