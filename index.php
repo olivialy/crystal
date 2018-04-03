@@ -60,7 +60,7 @@
             </p>
             <button id="close-menu"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
         </nav>
-        <p class="switchlang"><a href="#" class="asidemenu-active">fr</a> / <a href="#">en</a></p>
+        <p class="switchlang"><a href="#" class="switchlang-active">fr</a> / <a href="#">en</a></p>
         <button id="open-menu"><svg height="21" width="21"><use xlink:href="#symbol-menu"></use> </svg><span class="sr-only">Menu</span></button>
     </div>
 

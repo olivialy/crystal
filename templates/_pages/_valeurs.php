@@ -17,7 +17,7 @@
     </div>
 </section>
 
-<section class="rCover rCover-value1">
+<section class="rCover rCover-value1 rCover-fluidheight">
     <div class="rCover-content wrap">
         <div class="sm-12 md-6 mr2 xl-5 ml2">
             <blockquote>
@@ -41,7 +41,7 @@
     </div>
 </section>
 
-<section class="rCover rCover-value2">
+<section class="rCover rCover-value2 rCover-fluidheight">
     <div class="rCover-content wrap">
         <div class="sm-12 md-5 lg-3 xl-2 mr2 ml2">
             <div class="insert pl2 pr2">

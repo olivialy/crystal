@@ -9,19 +9,19 @@
 
     @media $screen.sm
         > li
-            width: 48%
-            margin: 1%
+            width: calc(50% - .5em)
+            margin: .25em
 
     @media $screen.md
         {clearfix}
-        margin: 0 -1%
+        margin: 0 -1em
 
         > li
-            margin: 0 1% 2%
+            margin: 0 1em 2em
             list-style-type: none
 
         &-half
-            width: 48%
+            width: calc(50% - 2em)
 
         &-third
-            width: calc(100%/3 - 2%)
+            width: calc(100%/3 - 2em)
