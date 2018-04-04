@@ -1,6 +1,12 @@
 // Grid helpers
 for breakpoint, query in $screen
     @media query
+        .show-{breakpoint}
+            display: block
+
+        .hide-{breakpoint}
+            display: none
+
         for i in (1..$columns)
             .{breakpoint}-{i}
                 _column(i)

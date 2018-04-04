@@ -1,18 +1,21 @@
-<div class="showcasehead">
-    <div class="wrap">
-        <p class="showcasehead-date">2016</p>
-        <h1>La Forge aux étoiles</h1>
-        <h2 class="showcasehead-title wrap-small">
-            <span>Futuroscope / Poitiers / France</span>
-            Titre de la production
-        </h2>
+<!-- We set background-image through inline style, as it comes from back office -->
+<div class="rCover rCover-smallheight" style="background-image:url(web/img/work/work-01_img-01.jpg)">
+    <div class="showcasehead">
+        <div class="wrap">
+            <p class="showcasehead-date">2016</p>
+            <h1>La Forge aux étoiles</h1>
+            <h2 class="showcasehead-title wrap-small">
+                <span>Futuroscope / Poitiers / France</span>
+                Titre de la production
+            </h2>
+        </div>
     </div>
 </div>
 
 <section class="rGallery showcase wrap mb6">
     <!-- top pager -->
     <?php if (!isset($isIframe)) { ?>
-    <ul class="rGallery-pager">
+    <ul class="rGallery-pager hide-sm">
         <li class="rGallery-pager-back">
             <a href="Realisations">Revenir aux réalisations Glace / Givre</a>
         </li>
@@ -92,7 +95,7 @@
 
         <!-- image gallery -->
         <ul class="rGallery-content-images mt2">
-            <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
+            <li><img src="web/img/work/work-01_img-01.jpg" height="500" width="750" alt="Titre de l'image"></li>
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
             <li><img src="web/img/empty.jpg" height="320" width="600" alt="Titre de l'image"></li>
