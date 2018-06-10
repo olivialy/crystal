@@ -94,9 +94,15 @@
 <?php } ?>
 
 <!-- modals: search -->
-<div id="modal-search" class="modal modal-search" aria-hidden="true">
+<div id="modal-search" class="modal modal-centered" aria-hidden="true">
     <?php include_once('templates/_pages/_recherche.php');?>
     <button class="modal-close" data-modal="#modal-search"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
+</div>
+
+<!-- modals: login -->
+<div id="modal-login" class="modal modal-centered" aria-hidden="true">
+    <?php include_once('templates/_pages/_login.php');?>
+    <button class="modal-close" data-modal="#modal-login"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
 </div>
 
 <!-- js -->

@@ -48,7 +48,7 @@
 
         <ul class="footerlinks">
             <li class="footerlinks-item">Copyright Crystal Group</li>
-            <li class="footerlinks-item"><a href="#">Espace privé</a></li>
+            <li class="footerlinks-item"><a href="Login" data-modal="#modal-login">Espace privé</a></li>
             <li class="footerlinks-item"><a href="#">Mentions Légales</a></li>
         </ul>
     </section>
