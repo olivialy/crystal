@@ -1,0 +1,27 @@
+.rExtranet
+
+    h1
+        margin-bottom: 1em
+        font-size: 3em
+
+    h2
+        font-size: 2.6em
+
+    table
+        width: 100%
+
+        a
+            color: $colour.default
+            text-transform: uppercase
+
+    &-content
+        margin: 0 auto
+        font-size: 1.3em
+
+        @media $screen.lg
+            _column(10)
+
+    &-logo
+        max-width: 500px
+        margin: 0 auto
+        border-bottom: 1px solid rgba($colour.grey, .5)

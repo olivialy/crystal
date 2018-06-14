@@ -1,0 +1,48 @@
+table
+    border-spacing : 0
+    border-collapse : collapse
+
+td
+    padding: .5em 0
+    text-align: center
+
+thead
+    tr
+        background-color: $colour.crystal
+
+    td
+        font-weight: bold
+        text-transform: uppercase
+        border-left: 3px solid white
+
+        &:first-child
+            border-left: none
+tbody
+    tr
+        background-color: rgba($colour.grey, .2)
+
+    td
+        border-top: 10px solid white
+
+@media $screen.sm
+    thead
+        display: none
+
+    tbody
+        tr
+            display: block
+            margin-bottom: 1em
+            background-color: rgba($colour.grey, .4)
+
+        td
+            display: block
+            padding: .25em .5em
+            border-top: none
+            text-align: left
+
+            &:before
+                content: attr(data-label)
+                text-transform: uppercase
+                font-size: .75em
+                font-weight: bold
+                padding-right: .5em
