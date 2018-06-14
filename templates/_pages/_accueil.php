@@ -84,8 +84,11 @@
 <section class="wrap mb6">
     <h2 class="align-center">La matière grise</h2>
     <p class="mb1 align-center">Rester toujours en MOUVEMENT</p>
-    <a href="#" class="videolauncher">
-        <img src="web/img/home-video.jpg" height="366" width="1530" alt="Titre de la video" />
+
+    <a href="https://www.youtube.com/watch?v=he1T9eCpusg" class="videolauncher" data-modal="#modal-video">
+        <span class="videolauncher-wrap">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/he1T9eCpusg?rel=0&autoplay=1&mute=1&controls=0&showinfo=0&loop=1&playlist=tXb9NJ6LUWI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </span>
         <svg height="64" width="64"><use xlink:href="#symbol-play"></use></svg>
     </a>
 

@@ -1,10 +1,32 @@
 .videolauncher
     display: block
     position: relative
+    height: 366px;
     margin-bottom: 2em
+    overflow: hidden;
+
+    &-wrap
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0%;
+        width: 100%;
+        padding-bottom: 56%
+
+    iframe
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 110%;
+        height: 110%;
+        min-width: 100%;
+        min-height: 100%;
+        transform: translate(-50%, -50%);
 
     svg
         position: absolute
+        z-index: 2
         top: 50%
         left: 50%
         fill: white

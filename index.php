@@ -104,6 +104,11 @@
     <?php include_once('templates/_pages/_login.php');?>
     <button class="modal-close" data-modal="#modal-login"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
 </div>
+<!-- modal video -->
+<div id="modal-video" class="modal modal-video" aria-hidden="true">
+    <div id="videoplaceholder"></div>
+    <button class="modal-close" data-modal="#modal-video"><svg height="30" width="30"><use xlink:href="#symbol-close"></use> </svg><span class="sr-only">Fermer</span></button>
+</div>
 
 <!-- js -->
 <script src="web/js/html5shiv.min.js"></script>
