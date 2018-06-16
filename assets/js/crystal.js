@@ -107,7 +107,6 @@ $(function() {
             $modal.removeAttr('aria-hidden');
 
             if ($modal.hasClass('modal-video')) {
-                console.log('ole ! ');
                 $('#videoplaceholder').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/LzLWxziqD_w?rel=0&showinfo=0&autoplay=true&wmode=transparent&mute=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
             }
 
