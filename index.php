@@ -9,16 +9,10 @@
     <link href="web/css/crystal.min.css"  rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
 </head>
+
 <body>
 <!-- svg symbols -->
 <div class="hidden"><?php include_once('web/svg/svg.svg') ?></div>
-<?php if ($page == 'accueil') { ?>
-    <svg id="scrolltip" class="scrolltip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="60" height="90">
-        <path d="M15.8,0h-1.6c-2.6,0-4.7,2.1-4.7,4.7v10.7c0,2.6,2.1,4.7,4.7,4.7h1.6c2.6,0,4.7-2.1,4.7-4.7V4.7C20.5,2.1,18.4,0,15.8,0z M15.6,5.6h-1.1V2.1h1.1V5.6z"/>
-        <polygon points="14.7,27.4 11.4,23.8 11.6,23.6 14.7,26.9 17.7,23.6 18,23.8 "/>
-        <polygon points="14.7,30 11.4,26.4 11.6,26.1 14.7,29.5 17.7,26.1 18,26.4 "/>
-    </svg>
-<?php } ?>
 
 <!-- header -->
 <header id="header" class="header">
@@ -75,11 +69,23 @@
     ?>
 </header>
 
-<!-- page markup -->
-<?php require_once('templates/_pages/_' . $page . '.php');?>
+<div class="rMain">
+    <!-- we need this additional div to avoid page and modal scrolling problems on iOS devices  -->
+    <?php if ($page == 'accueil') { ?>
+        <svg id="scrolltip" class="scrolltip" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="60" height="90">
+            <path d="M15.8,0h-1.6c-2.6,0-4.7,2.1-4.7,4.7v10.7c0,2.6,2.1,4.7,4.7,4.7h1.6c2.6,0,4.7-2.1,4.7-4.7V4.7C20.5,2.1,18.4,0,15.8,0z M15.6,5.6h-1.1V2.1h1.1V5.6z"/>
+            <polygon points="14.7,27.4 11.4,23.8 11.6,23.6 14.7,26.9 17.7,23.6 18,23.8 "/>
+            <polygon points="14.7,30 11.4,26.4 11.6,26.1 14.7,29.5 17.7,26.1 18,26.4 "/>
+        </svg>
+    <?php } ?>
 
-<!-- footer -->
-<?php require_once('templates/_components/_footer.php');?>
+    <!-- page markup -->
+    <?php require_once('templates/_pages/_' . $page . '.php');?>
+
+    <!-- footer -->
+    <?php require_once('templates/_components/_footer.php');?>
+<!-- end .main -->
+</div>
 
 <!-- modals: showcase -->
 <?php if (in_array($page, ['matiere', 'accueil'])) {?>

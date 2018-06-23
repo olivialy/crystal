@@ -1,6 +1,7 @@
 $(function() {
     var windowWidth = window.innerWidth,
         $body = $('body'),
+        $rMain = $('.rMain'),
         $header = $('#header'),
         $menu = $('#menu'),
         $keyfigures = $('#keyfigures'),
@@ -103,7 +104,7 @@ $(function() {
         // open/close modal
         // + allow/disallow body scroll
         if ($modal.is('[aria-hidden]')) {
-            $body.css('overflow', 'hidden');
+            $rMain.css('overflow', 'hidden');
             $modal.removeAttr('aria-hidden');
 
             if ($modal.hasClass('modal-video')) {
@@ -112,7 +113,7 @@ $(function() {
 
         } else {
             $modal.attr('aria-hidden', true);
-            $body.removeAttr('style');
+            $rMain.removeAttr('style');
 
             if ($modal.hasClass('modal-video')) {
                 $('#videoplaceholder').html('');
